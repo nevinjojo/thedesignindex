@@ -1,8 +1,103 @@
+/* GENERAL */
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
-  color: #00B7FF; }
+  color: #3c4c5b; }
+
+a:hover {
+  text-decoration: none;
+  color: #3c4c5b; }
+
+/* HEADER/NAVBAR */
+.navbar {
+  background-color: #f7f8fa;
+  padding-top: 9px; }
+
+.header {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+/* Header text styling */
+.feedback {
+  color: #9ba5af;
+  font-weight: bold; }
+
+.slogan {
+  color: #7b8795; }
+
+.last-updated {
+  color: #c7ccd0; }
+
+/* Styling for devices such as ipad */
+@media (max-width: 850px) {
+  .last-updated, .feedback {
+    display: none; } }
+
+/* RESOURCE WRAPPER */
+.resource-wrapper {
+  padding-right: 0;
+  padding-left: 0; }
+
+.resource-card-wrapper {
+  background-color: #f7f8fa;
+  border-radius: 7%;
+  margin-top: 30px;
+  margin-left: 5px; }
+
+.text {
+  margin: 20px 0px; }
+
+.card-content {
+  display: flex;
+  align-items: center;
+  margin: 0 0 40px;
+  position: relative;
+  text-decoration: none; }
+
+.card-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 15%;
+  margin: 20% 20% 20% 18%;
+  cursor: pointer;
+  background-color: #c6f1e8; }
+
+.card-icon-container {
+  position: relative;
+  display: flex; }
+
+.card-text {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 2px;
+  color: #3c4c59; }
+
+.card-text-container {
+  margin-left: 10%; }
+
+.card-title {
+  font-weight: bold;
+  font-size: 17px; }
+
+.card-category {
+  margin-top: 8px;
+  color: #1cc7a5; }
+
+.fir-imageover-color {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  border-radius: 50px;
+  cursor: pointer;
+  top: 0;
+  left: 0; }
+
+.card-icon-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25%; }
 
 /*# sourceMappingURL=style.css.map */
