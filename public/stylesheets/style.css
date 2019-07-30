@@ -1,6 +1,6 @@
 /* GENERAL */
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px 'Muli', sans-serif; }
 
 a {
   color: #3c4c5b; }
@@ -12,7 +12,8 @@ a:hover {
 /* HEADER/NAVBAR */
 .navbar {
   background-color: #f7f8fa;
-  padding-top: 9px; }
+  padding-top: 20px;
+  padding-bottom: 10px; }
 
 .header {
   padding-left: 50px;
@@ -24,9 +25,11 @@ a:hover {
   font-weight: bold; }
 
 .slogan {
-  color: #7b8795; }
+  color: #8D97A1;
+  font-size: 18px; }
 
 .last-updated {
+  font-size: 12px;
   color: #c7ccd0; }
 
 /* Styling for devices such as ipad */
@@ -68,21 +71,25 @@ a:hover {
   display: flex; }
 
 .card-text {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  margin-top: 2px;
-  color: #3c4c59; }
+  font-size: 13px;
+  line-height: 18px;
+  color: #8D97A1; }
 
 .card-text-container {
   margin-left: 10%; }
 
 .card-title {
-  font-weight: bold;
-  font-size: 17px; }
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 13px;
+  color: #3D4E59; }
 
 .card-category {
-  margin-top: 8px;
+  margin-bottom: 6px;
+  font-weight: 800;
+  font-size: 11px;
   color: #1cc7a5; }
 
 .fir-imageover-color {
