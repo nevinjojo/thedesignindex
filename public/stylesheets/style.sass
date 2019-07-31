@@ -15,23 +15,38 @@ a:hover
   background-color: #f7f8fa
   padding-top: 20px
   padding-bottom: 10px
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.01)
+  border: 1px solid rgba(0, 0, 0, 0.01)
 
 .header
   margin-left: 30px
   margin-right: 30px
 
+hr
+  border: 0
+  width: 100%
+  background-color: #E8EBEF
+  height: 1px
+
 /* Header text styling */
 .feedback
   color: #9ba5af
   font-weight: bold
+  margin-top: 10px
 
 .slogan
-  color: #8D97A1
-  font-size: 18px
+  color: #7B8794
+  font-size: 16px
+  height: 25px
 
 .last-updated
   font-size: 12px
   color: #c7ccd0
+
+.filters
+  font-size: 14px
+  color: #ACB0B4
+  height: 40px
 
 /* Styling for devices such as ipad */
 @media (max-width: 850px)
@@ -41,9 +56,10 @@ a:hover
 
 /* RESOURCE WRAPPER */
 .box
-  margin-top: 30px
+  margin-top: 28px
   margin-left: 58px
   margin-right: 58px
+  margin-bottom: 60px
 //padding: 35px
 
 .resource-wrapper
@@ -54,20 +70,18 @@ a:hover
   background-color: #f7f8fa
   //padding: 0% 4% 3% 4%
   margin-top: 30px
-  padding-right: 15px
   border-radius: 15px
-
-.resource-card
-
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02)
+  border: 1px solid rgba(0, 0, 0, 0.01)
 
 .text
   margin: 20px 0px
-
 
 .card-content
   display: flex
   position: relative
   text-decoration: none
+  overflow: hidden
 
 .card-icon
   width: 100px
@@ -92,6 +106,7 @@ a:hover
   margin-top: 20px
   margin-left: 40px
   margin-bottom: 20px
+  margin-right: 15px
 
 .card-title
   font-weight: 800
@@ -104,6 +119,12 @@ a:hover
   font-weight: 800
   font-size: 11px
   color: #1cc7a5
+
+.card-description
+  display: -webkit-box
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+  overflow: hidden
 
 .fir-imageover-color
   height: 80px
@@ -123,3 +144,6 @@ a:hover
   top: 0
   left: 0
   padding: 25%
+
+.copyright
+  color: #323F4A
