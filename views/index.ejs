@@ -11,6 +11,7 @@
         <!-- Other Stylesheets and scripts -->
         <link rel='stylesheet' href='/stylesheets/style.css'/>
         <link href="https://fonts.googleapis.com/css?family=Muli:600,700,800&display=swap" rel="stylesheet">
+        <script type="application/javascript" href="/javascript/resource_manager.js"></script>
         <title>The Design Index</title>
     </head>
 
@@ -30,250 +31,113 @@
             </div>
         </nav>
 
+        <nav class="navbar filterbar">
+            <!-- Top Header -->
+            <div class="container-fluid header">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" id="category-item" href="#">All</a>
+                        <a class="dropdown-item" id="category-item" href="#">Photography</a>
+                        <a class="dropdown-item" id="category-item" href="#">Mockups</a>
+                        <a class="dropdown-item" id="category-item" href="#">Icons</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
         <!-- Resource Wrapper -->
         <div class="box">
             <div class="resource-wrapper">
                 <div class="row">
 
-                    <!-- Resource Card 1 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
+                    <!-- Include json values from resources.ejs to resource-wrapper -->
+                    <%
+                    let category_colours = {
+                        Photography: "#1cc7a5",
+                        Design: "#11ee00",
+                        Icons: "#aa00aa",
+                        Mockups: "#bbaabb"
+                    };
 
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/1_Kaboompics.svg" alt="Unsplash Logo"/>
+                    let resources = [
+                        {
+                            title: "Unsplash",
+                            description: "The internet's source of freely usable images. Powered by creators everywhere.",
+                            category: "Photography",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/1_Unsplash.svg"
+                        },
+                        {
+                            title: "Pexels",
+                            description: "Bladi Bladi boogidi boo",
+                            category: "Design",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://www.pexels.com/",
+                            icon_link: "/images/resource_icons/1_Pexels.svg"
+                        },
+                        {
+                            title: "Pixel Buddha",
+                            description: "Ding dong, here's my bing bong!",
+                            category: "Icons",
+                            job_types: ["Designer, Web Developer"],
+                            url: "https://pixelbuddha.net/",
+                            icon_link: "/images/resource_icons/2_Pixelbuddha.svg"
+                        },
+                        {
+                            title: "Media Lot",
+                            description: "The internet's source looting media.",
+                            category: "Mockups",
+                            job_types: ["Designer, Robber"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/2_Medialoot.svg"
+                        },
+                        {
+                            title: "FlatIcon",
+                            description: "Get your free icons here boi!",
+                            category: "Icons",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/4_Flaticon.svg"
+                        },
+                        {
+                            title: "FontSpace",
+                            description: "For those with daddy issues.",
+                            category: "Illustrations",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/5_Fontspace.svg"
+                        },
+                    ];
+                    %>
+
+
+                <% for(let i = 0; i < resources.length; i++) { %>
+                         <!-- Resource Card -->
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
+                            <a href=<%= resources[i].url %> rel="noopener" target="_blank"><div class="resource-card-wrapper">
+
+                                <div class="card-content">
+                                    <div class="card-icon-container">
+                                        <div class="card-icon" alt="<%= resources[i].title %> Logo">
+                                            <img src="<%= resources[i].icon_link %>" alt="<%= resources[i].title %> Logo"/>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-container">
+                                        <div class="card-text card-category" style="color: <%= category_colours[resources[i].category]%>"><%= resources[i].category %></div>
+                                        <div class="card-text card-title"><%= resources[i].title %></div>
+                                        <div class="card-text card-description"><%= resources[i].description %></div>
                                     </div>
                                 </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Photos</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
+
                             </div>
+                          </a>
                         </div>
-                      </a>
-                    </div>
+                    <% } %>
 
-                    <!-- Resource Card 2 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/1_Pexels.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Photos</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 3 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/1_Unsplash.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Photos</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 4 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/1_Pixabay.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Photos</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 5 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/2_Graphicburger.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Mockups</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 6 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/2_Medialoot.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Mockups</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 1 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/2_Pixaden.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Photos</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 2 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/2_Pixelbuddha.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Photos</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 3 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/3_Humaaans.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Photos</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 4 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/3_Ouch.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Photos</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 5 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/4_Flaticon.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Mockups</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                    <!-- Resource Card 6 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 resource-card">
-                        <a href="https://unsplash.com/" rel="noopener" target="_blank"><div class="resource-card-wrapper">
-
-                            <div class="card-content">
-                                <div class="card-icon-container">
-                                    <div class="card-icon" alt="Unsplash Logo">
-                                        <img src="/images/resource_icons/4_Iconfinder.svg" alt="Unsplash Logo"/>
-                                    </div>
-                                </div>
-                                <div class="card-text-container">
-                                    <div class="card-text card-category">Mockups</div>
-                                    <div class="card-text card-title">Unsplash</div>
-                                    <div class="card-text card-description">The internet's source of freely usable images. Powered by creators everywhere.</div>
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
                 </div>
             </div>
         </div>
