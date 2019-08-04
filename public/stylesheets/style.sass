@@ -16,7 +16,7 @@ a:hover
   padding-top: 20px
   padding-bottom: 10px
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.01)
-  border: 1px solid rgba(0, 0, 0, 0.01)
+  border: 1px solid rgba(0, 0, 0, 0.02)
 
 .header
   margin-left: 30px
@@ -37,6 +37,7 @@ hr
 .slogan
   color: #7B8794
   font-size: 16px
+  line-height: 25px
   height: 25px
 
 .last-updated
@@ -72,7 +73,7 @@ hr
   margin-top: 30px
   border-radius: 15px
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02)
-  border: 1px solid rgba(0, 0, 0, 0.01)
+  border: 1px solid rgba(0, 0, 0, 0.02)
 
 .text
   margin: 20px 0px
@@ -111,8 +112,14 @@ hr
 .card-title
   font-weight: 800
   font-size: 19px
-  line-height: 13px
+  line-height: 24px
+  margin-top: -4px
+  margin-bottom: 6px
   color: #3D4E59
+  overflow: hidden
+  display: -webkit-box
+  -webkit-line-clamp: 1
+  -webkit-box-orient: vertical
 
 .card-category
   margin-bottom: 6px
@@ -147,3 +154,48 @@ hr
 
 .copyright
   color: #323F4A
+
+@media only screen and (max-width: 80.95em) and (min-width: 61.95em)  /* 720px */
+
+  .header
+    margin-left: 0px
+    margin-right: 0px
+
+  .box
+    margin-top: 18px
+    margin-left: 28px
+    margin-right: 28px
+    margin-bottom: 60px
+
+  .card-category
+    font-size: 11px
+
+@media only screen and (max-width: 61.95em) and (min-width: 35.95em)  /* 720px */
+
+  .header
+    margin-left: 0px
+    margin-right: 0px
+
+  .box
+    margin-top: 18px
+    margin-left: 28px
+    margin-right: 28px
+    margin-bottom: 60px
+
+@media only screen and (max-width: 35.95em) /* 720px */
+
+  .header
+    margin-left: -5px
+    margin-right: -5px
+
+  .box
+    margin-top: 8px
+    margin-left: 23px
+    margin-right: 23px
+    margin-bottom: 50px
+
+  .resource-card-wrapper
+    background-color: #f7f8fa
+    //padding: 0% 4% 3% 4%
+    margin-top: 20px
+    border-radius: 15px

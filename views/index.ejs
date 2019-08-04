@@ -14,6 +14,10 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:600,700,800&display=swap" rel="stylesheet">
         <script type="application/javascript" href="/javascript/resource_manager.js"></script>
         <title>The Design Index</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
     </head>
 
     <body>
@@ -65,60 +69,289 @@
 
                     <%
                     let category_colours = {
-                        Photography: "#1cc7a5",
-                        Design: "#11ee00",
-                        Icons: "#aa00aa",
-                        Mockups: "#bbaabb"
+                        Photos: "#1BC7A4",
+                        Mockups: "#00A6E9",
+                        Illustration: "#5A78FF",
+                        Icons: "#8F55E2",
+                        Fonts: "#F652C2",
+                        Colour: "#FF3423",
+                        Inspiration: "#FF8300",
+                        "UX & UI": "#FFBA01",
+                        Other: "#6CDB36"
                     };
 
                     let resources = [
                         {
+                            title: "Kaboompics",
+                            description: "Great place to get breathtaking free pictures for business or personal projects.",
+                            category: "Photos",
+                            job_types: ["Designer, Web Designer"],
+                            url: "http://kaboompics.com/",
+                            icon_link: "/images/resource_icons/1_Kaboompics.svg"
+                        },
+                        {
+                            title: "Pexels",
+                            description: "Free high quality photos you can use anywhere that require no attribution.",
+                            category: "Photos",
+                            job_types: ["Designer, Web Designer"],
+                            url: "http://pexels.com/",
+                            icon_link: "/images/resource_icons/1_Pexels.svg"
+                        },
+                        {
+                            title: "Stocksnap",
+                            description: "High quality and high resolution images free from all copyright restrictions.",
+                            category: "Photos",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://stocksnap.io/",
+                            icon_link: "/images/resource_icons/1_Stocksnap.svg"
+                        },
+                        {
                             title: "Unsplash",
                             description: "The internet's source of freely usable images. Powered by creators everywhere.",
-                            category: "Photography",
+                            category: "Photos",
                             job_types: ["Designer, Web Designer"],
                             url: "https://unsplash.com/",
                             icon_link: "/images/resource_icons/1_Unsplash.svg"
                         },
                         {
-                            title: "Pexels",
-                            description: "Bladi Bladi boogidi boo",
-                            category: "Design",
+                            title: "Graphic Burger",
+                            description: "Tasty design resources made with care that are free for commercial use.",
+                            category: "Mockups",
                             job_types: ["Designer, Web Designer"],
-                            url: "https://www.pexels.com/",
-                            icon_link: "/images/resource_icons/1_Pexels.svg"
+                            url: "https://graphicburger.com/",
+                            icon_link: "/images/resource_icons/2_Graphicburger.svg"
+                        },
+                        {
+                            title: "Pixeden",
+                            description: "Premium design mockups for packaging, stationery, technology and more.",
+                            category: "Mockups",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://www.pixeden.com/free-design-web-resources",
+                            icon_link: "/images/resource_icons/2_Pixaden.svg"
                         },
                         {
                             title: "Pixel Buddha",
-                            description: "Ding dong, here's my bing bong!",
-                            category: "Icons",
-                            job_types: ["Designer, Web Developer"],
-                            url: "https://pixelbuddha.net/",
+                            description: "Free mockups and various other design resources such as UI kits & fonts.",
+                            category: "Mockups",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://pixelbuddha.net/freebies",
                             icon_link: "/images/resource_icons/2_Pixelbuddha.svg"
                         },
                         {
-                            title: "Media Lot",
-                            description: "The internet's source looting media.",
-                            category: "Mockups",
-                            job_types: ["Designer, Robber"],
-                            url: "https://unsplash.com/",
-                            icon_link: "/images/resource_icons/2_Medialoot.svg"
+                            title: "Humaaans",
+                            description: "Free mix & match illustrations of minimal people with a customisable design library.",
+                            category: "Illustration",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://www.humaaans.com",
+                            icon_link: "/images/resource_icons/3_Humaaans.svg"
                         },
                         {
-                            title: "FlatIcon",
-                            description: "Get your free icons here boi!",
+                            title: "Ouch!",
+                            description: "Free beautiful illustration sets by various different designers. Tons of styles to choose.",
+                            category: "Illustration",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://icons8.com/ouch",
+                            icon_link: "/images/resource_icons/3_Ouch.svg"
+                        },
+                        {
+                            title: "The Noun Project",
+                            description: "Over 2 million curated icons in various styles and packs.",
                             category: "Icons",
                             job_types: ["Designer, Web Designer"],
-                            url: "https://unsplash.com/",
+                            url: "https://thenounproject.com",
+                            icon_link: "/images/resource_icons/4_Thenounproject.svg"
+                        },
+                        {
+                            title: "Flat Icon",
+                            description: "Curated packs of icons that are great for keeping a consistent style throughout a project.",
+                            category: "Icons",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://www.flaticon.com",
                             icon_link: "/images/resource_icons/4_Flaticon.svg"
                         },
                         {
-                            title: "FontSpace",
+                            title: "Icons8",
+                            description: "Great minimal icon packs for UI projects that you can filter by device type.",
+                            category: "Icons",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://icons8.com/icons",
+                            icon_link: "/images/resource_icons/4_Icons8.svg"
+                        },
+                        {
+                            title: "Icon Finder",
+                            description: "Various different icon styles including coloured and isometric sets.",
+                            category: "Icons",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://www.iconfinder.com/icon-sets/featured/free",
+                            icon_link: "/images/resource_icons/4_Iconfinder.svg"
+                        },
+                        {
+                            title: "Google Fonts",
                             description: "For those with daddy issues.",
-                            category: "Illustrations",
+                            category: "Fonts",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/5_Googlefonts.svg"
+                        },
+                        {
+                            title: "Font Squirrel",
+                            description: "For those with daddy issues.",
+                            category: "Fonts",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/5_Fontsquirrel.svg"
+                        },
+                        {
+                            title: "Font Spring",
+                            description: "For those with daddy issues.",
+                            category: "Fonts",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/5_Fontspring.svg"
+                        },
+                        {
+                            title: "Font Space",
+                            description: "For those with daddy issues.",
+                            category: "Fonts",
                             job_types: ["Designer, Web Designer"],
                             url: "https://unsplash.com/",
                             icon_link: "/images/resource_icons/5_Fontspace.svg"
+                        },
+                        {
+                            title: "Coolors",
+                            description: "For those with daddy issues.",
+                            category: "Colour",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/6_Coolors.svg"
+                        },
+                        {
+                            title: "Colour Hunt",
+                            description: "For those with daddy issues.",
+                            category: "Colour",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/6_Colourhunt.svg"
+                        },
+                        {
+                            title: "Gradients.io",
+                            description: "For those with daddy issues.",
+                            category: "Colour",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/6_gradientsio.svg"
+                        },
+                        {
+                            title: "Khorma",
+                            description: "For those with daddy issues.",
+                            category: "Colour",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/6_Khorma.svg"
+                        },
+                        {
+                            title: "Shade",
+                            description: "For those with daddy issues.",
+                            category: "Colour",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/6_Shade.svg"
+                        },
+                        {
+                            title: "Awwwards",
+                            description: "For those with daddy issues.",
+                            category: "Inspiration",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/7_Awwwards.svg"
+                        },
+                        {
+                            title: "Behance",
+                            description: "For those with daddy issues.",
+                            category: "Inspiration",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/7_Behance.svg"
+                        },
+                        {
+                            title: "Dribbble",
+                            description: "For those with daddy issues.",
+                            category: "Inspiration",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/7_Dribbble.svg"
+                        },
+                        {
+                            title: "Designspiration",
+                            description: "For those with daddy issues.",
+                            category: "Inspiration",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/7_Designspiration.svg"
+                        },
+                        {
+                            title: "Mobbin",
+                            description: "For those with daddy issues.",
+                            category: "UX & UI",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/8_Mobbin.svg"
+                        },
+                        {
+                            title: "Sketchsheets",
+                            description: "For those with daddy issues.",
+                            category: "UX & UI",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/8_Sketchsheets.svg"
+                        },
+                        {
+                            title: "UI Sources",
+                            description: "For those with daddy issues.",
+                            category: "UX & UI",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/8_Uisources.svg"
+                        },
+                        {
+                            title: "Paper Sizes",
+                            description: "For those with daddy issues.",
+                            category: "Other",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/9_Papersizes.svg"
+                        },
+                        {
+                            title: "Calligraphr",
+                            description: "For those with daddy issues.",
+                            category: "Other",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/9_Calligraphr.svg"
+                        },
+                        {
+                            title: "Shazzy Maps",
+                            description: "For those with daddy issues.",
+                            category: "Other",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/9_Snazzymaps.svg"
+                        },
+                        {
+                            title: "Briefbox",
+                            description: "For those with daddy issues.",
+                            category: "Other",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/9_Briefbox.svg"
+                        },
+                        {
+                            title: "SmallPDF",
+                            description: "For those with daddy issues.",
+                            category: "Other",
+                            job_types: ["Designer, Web Designer"],
+                            url: "https://unsplash.com/",
+                            icon_link: "/images/resource_icons/9_Smallpdf.svg"
                         },
                     ];
                     %>
@@ -151,21 +384,11 @@
             </div>
         </div>
 
-
         <!-- Footer -->
         <div class="navbar">
             <div class="container-fluid header">
                 <a class="navbar-brand mb-0 h1" href="#"><img src="/images/logo2.svg" width="30" height="30" class="d-inline-block align-top" alt="logo"></a>
-                <p class="copyright">Made with love by <a class="navbar-text copyright" href="www.nikolaibain.com"><b> Nikolai Bain </b></a> & <a class="navbar-text copyright" href="www.nevinjojo.com"><b> Nevin Jojo</b></a>
-            </div>
-        </div>
-
-
-        <!-- Footer -->
-        <div class="navbar">
-            <div class="container-fluid header">
-                <a class="navbar-brand mb-0 h1" href="#"><img src="/images/logo2.svg" width="30" height="30" class="d-inline-block align-top" alt="logo"></a>
-                <p class="copyright">Made with love by <a class="navbar-text copyright" href= "www.nikolaibain.com"><b> Nikolai Bain </b></a> & <a class="navbar-text copyright" href= "www.nevinjojo.com"><b> Nevin Jojo</b></a>
+                <p class="copyright">Made with love by <a class="navbar-text copyright" href= "https://www.nikolaibain.com"><b> Nikolai Bain </b></a> & <a class="navbar-text copyright" href= "http://www.nevinjojo.com"><b> Nevin Jojo</b></a>
             </div>
         </div>
 
