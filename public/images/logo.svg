@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="309px" height="28px" viewBox="0 0 309 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.5003 1.0002 28.5003 1.0002 28.5003 2.0002 0.5003 2.0002"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-2" transform="translate(-85.000000, -37.000000)">
+            <g id="Group-4" transform="translate(81.000000, 30.000000)">
+                <g id="Group-5" transform="translate(4.000000, 0.000000)">
+                    <path d="M46.5,25.5 L46.5,11" id="Line" stroke="#CBD2D9" stroke-width="2" stroke-linecap="square"></path>
+                    <text id="The-Design-Index" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="30" font-weight="bold" line-spacing="34" letter-spacing="-0.00787023556" fill="#323F4A">
+                        <tspan x="61" y="29">T</tspan>
+                        <tspan x="79.3221298" y="29" letter-spacing="0.0371297644">h</tspan>
+                        <tspan x="97.1492595" y="29">e Design Index</tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(0.000000, 9.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M28.5003,0.5002 L0.5003,0.5002" id="Stroke-1" stroke="#323F4A" stroke-width="4"></path>
+                        <path d="M28.5003,9.5002 L18.5003,9.5002" id="Stroke-4" stroke="#323F4A" stroke-width="4"></path>
+                        <path d="M28.5003,18.5002 L18.5003,18.5002" id="Stroke-6" stroke="#323F4A" stroke-width="4"></path>
+                        <path d="M12.5003,14.0002 C12.5003,11.2386723 10.2618277,9.0002 7.5003,9.0002 C4.739411,9.0002 2.5003,11.2386723 2.5003,14.0002 C2.5003,16.7617277 4.739411,19.0002 7.5003,19.0002 C10.2618277,19.0002 12.5003,16.7617277 12.5003,14.0002 Z" id="Stroke-8" stroke="#323F4A" stroke-width="4"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
