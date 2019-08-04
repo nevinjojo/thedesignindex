@@ -16,6 +16,73 @@
         <title>The Design Index</title>
     </head>
 
+    <%
+        function setCategory(category) {
+            console.log(category);
+        }
+
+        let selected_category = "All";
+
+        let category_colours = {
+            All: "#11ee00",
+            Photography: "#1cc7a5",
+            Design: "#11ee00",
+            Icons: "#aa00aa",
+            Mockups: "#bbaabb"
+        };
+
+        let resources = [
+            {
+                title: "Unsplash",
+                description: "The internet's source of freely usable images. Powered by creators everywhere.",
+                category: "Photography",
+                job_types: ["Designer, Web Designer"],
+                url: "https://unsplash.com/",
+                icon_link: "/images/resource_icons/1_Unsplash.svg"
+            },
+            {
+                title: "Pexels",
+                description: "Bladi Bladi boogidi boo",
+                category: "Design",
+                job_types: ["Designer, Web Designer"],
+                url: "https://www.pexels.com/",
+                icon_link: "/images/resource_icons/1_Pexels.svg"
+            },
+            {
+                title: "Pixel Buddha",
+                description: "Ding dong, here's my bing bong!",
+                category: "Icons",
+                job_types: ["Designer, Web Developer"],
+                url: "https://pixelbuddha.net/",
+                icon_link: "/images/resource_icons/2_Pixelbuddha.svg"
+            },
+            {
+                title: "Media Lot",
+                description: "The internet's source looting media.",
+                category: "Mockups",
+                job_types: ["Designer, Robber"],
+                url: "https://unsplash.com/",
+                icon_link: "/images/resource_icons/2_Medialoot.svg"
+            },
+            {
+                title: "FlatIcon",
+                description: "Get your free icons here boi!",
+                category: "Icons",
+                job_types: ["Designer, Web Designer"],
+                url: "https://unsplash.com/",
+                icon_link: "/images/resource_icons/4_Flaticon.svg"
+            },
+            {
+                title: "FontSpace",
+                description: "For those with daddy issues.",
+                category: "Illustrations",
+                job_types: ["Designer, Web Designer"],
+                url: "https://unsplash.com/",
+                icon_link: "/images/resource_icons/5_Fontspace.svg"
+            }
+        ];
+    %>
+
     <body>
         <!-- Header -->
         <nav class="navbar">
@@ -33,119 +100,53 @@
                 <span class="navbar-text last-updated">Last updated on July 2019</span>
                 <hr>
             </div>
-
-            <!-- Filters -->
-            <div class="container-fluid header">
-                <span class="navbar-text filters">Filters coming soon</span>
-            </div>
         </nav>
 
-        <!--<nav class="navbar filterbar">-->
-        <!--    &lt;!&ndash; Top Header &ndash;&gt;-->
-        <!--    <div class="container-fluid header">-->
-        <!--        <div class="dropdown">-->
-        <!--            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"-->
-        <!--                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-        <!--                Category-->
-        <!--            </button>-->
-        <!--            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
-        <!--                <a class="dropdown-item" id="category-item" href="#">All</a>-->
-        <!--                <a class="dropdown-item" id="category-item" href="#">Photography</a>-->
-        <!--                <a class="dropdown-item" id="category-item" href="#">Mockups</a>-->
-        <!--                <a class="dropdown-item" id="category-item" href="#">Icons</a>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</nav>-->
+        <!--Filters-->
+        <nav class="navbar filterbar">
+            <!-- Top Header -->
+            <div class="container-fluid header">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <% Object.keys(category_colours).forEach(function (category) { %>
+                        <a class="dropdown-item" id="category-item" onclick="<% setCategory(category)%>"><%= category %></a>
+                        <% }) %>
+                    </div>
+                </div> ,
+            </div>
+        </nav>
 
         <!-- Resource Wrapper -->
         <div class="box">
             <div class="resource-wrapper">
                 <div class="row">
-
-                    <%
-                    let category_colours = {
-                        Photography: "#1cc7a5",
-                        Design: "#11ee00",
-                        Icons: "#aa00aa",
-                        Mockups: "#bbaabb"
-                    };
-
-                    let resources = [
-                        {
-                            title: "Unsplash",
-                            description: "The internet's source of freely usable images. Powered by creators everywhere.",
-                            category: "Photography",
-                            job_types: ["Designer, Web Designer"],
-                            url: "https://unsplash.com/",
-                            icon_link: "/images/resource_icons/1_Unsplash.svg"
-                        },
-                        {
-                            title: "Pexels",
-                            description: "Bladi Bladi boogidi boo",
-                            category: "Design",
-                            job_types: ["Designer, Web Designer"],
-                            url: "https://www.pexels.com/",
-                            icon_link: "/images/resource_icons/1_Pexels.svg"
-                        },
-                        {
-                            title: "Pixel Buddha",
-                            description: "Ding dong, here's my bing bong!",
-                            category: "Icons",
-                            job_types: ["Designer, Web Developer"],
-                            url: "https://pixelbuddha.net/",
-                            icon_link: "/images/resource_icons/2_Pixelbuddha.svg"
-                        },
-                        {
-                            title: "Media Lot",
-                            description: "The internet's source looting media.",
-                            category: "Mockups",
-                            job_types: ["Designer, Robber"],
-                            url: "https://unsplash.com/",
-                            icon_link: "/images/resource_icons/2_Medialoot.svg"
-                        },
-                        {
-                            title: "FlatIcon",
-                            description: "Get your free icons here boi!",
-                            category: "Icons",
-                            job_types: ["Designer, Web Designer"],
-                            url: "https://unsplash.com/",
-                            icon_link: "/images/resource_icons/4_Flaticon.svg"
-                        },
-                        {
-                            title: "FontSpace",
-                            description: "For those with daddy issues.",
-                            category: "Illustrations",
-                            job_types: ["Designer, Web Designer"],
-                            url: "https://unsplash.com/",
-                            icon_link: "/images/resource_icons/5_Fontspace.svg"
-                        },
-                    ];
-                    %>
-
-                    <% for(let i = 0; i < resources.length; i++) { %>
+                    <% resources.forEach(function(resource) { %>
                         <!-- Resource Card -->
                         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 resource-card">
-                            <a href=<%= resources[i].url %> rel="noopener" target="_blank">
+                            <a href=<%= resource.url %> rel="noopener" target="_blank">
                                 <div class="resource-card-wrapper">
 
                                     <div class="card-content">
                                         <div class="card-icon-container">
-                                            <div class="card-icon" alt="<%= resources[i].title %> Logo">
-                                                <img src="<%= resources[i].icon_link %>" alt="<%= resources[i].title %> Logo"/>
+                                            <div class="card-icon" alt="<%= resource.title %> Logo">
+                                                <img src="<%= resource.icon_link %>" alt="<%= resource.title %> Logo"/>
                                             </div>
                                         </div>
                                         <div class="card-text-container">
                                             <div class="card-text card-category"
-                                                 style="color: <%= category_colours[resources[i].category] %>"><%= resources[i].category %></div>
-                                            <div class="card-text card-title"><%= resources[i].title %></div>
-                                            <div class="card-text card-description"><%= resources[i].description %></div>
+                                                 style="color: <%= category_colours[resource.category] %>"><%= resource.category %></div>
+                                            <div class="card-text card-title"><%= resource.title %></div>
+                                            <div class="card-text card-description"><%= resource.description %></div>
                                         </div>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                    <% } %>
+                    <% }); %>
 
                 </div>
             </div>
