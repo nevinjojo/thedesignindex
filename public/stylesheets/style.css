@@ -1,6 +1,7 @@
 /* GENERAL */
 body {
-  font: 14px 'Muli', sans-serif; }
+  font: 14px 'Muli', sans-serif;
+  background-color: #ffffff; }
 
 a {
   color: #3c4c5b; }
@@ -11,11 +12,11 @@ a:hover {
 
 /* HEADER/NAVBAR */
 .navbar {
-  background-color: #f7f8fa;
+  background-color: #F5F7FA;
   padding-top: 20px;
   padding-bottom: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.01);
-  border: 1px solid rgba(0, 0, 0, 0.02); }
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.01);
+  border: 1.5px solid rgba(50, 62, 72, 0.01); }
 
 .header {
   margin-left: 30px;
@@ -25,7 +26,8 @@ hr {
   border: 0;
   width: 100%;
   background-color: #E8EBEF;
-  height: 1px; }
+  opacity: 0.7;
+  height: 1.5px; }
 
 /* Header text styling */
 .feedback {
@@ -37,7 +39,7 @@ hr {
   color: #7B8794;
   font-size: 16px;
   line-height: 25px;
-  height: 25px; }
+  margin-bottom: -4px; }
 
 .last-updated {
   font-size: 12px;
@@ -65,11 +67,18 @@ hr {
   padding-left: 0; }
 
 .resource-card-wrapper {
-  background-color: #f7f8fa;
+  background-color: #F5F7FA;
   margin-top: 30px;
   border-radius: 15px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02);
-  border: 1px solid rgba(0, 0, 0, 0.02); }
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.01);
+  border: 1.5px solid rgba(0, 0, 0, 0.01);
+  transition: all 0.15s ease; }
+
+.resource-card-wrapper:hover .card-open {
+  opacity: 1; }
+
+.resource-card-wrapper:hover {
+  border: 1.5px solid rgba(50, 62, 72, 0.08); }
 
 .text {
   margin: 20px 0px; }
@@ -97,13 +106,13 @@ hr {
   font-weight: 400;
   font-size: 13px;
   line-height: 18px;
-  color: #8D97A1; }
+  color: #7B8794; }
 
 .card-text-container {
   margin-top: 20px;
   margin-left: 40px;
   margin-bottom: 20px;
-  margin-right: 15px; }
+  margin-right: 4vw; }
 
 .card-title {
   font-weight: 800;
@@ -111,7 +120,7 @@ hr {
   line-height: 24px;
   margin-top: -4px;
   margin-bottom: 6px;
-  color: #3D4E59;
+  color: #323E48;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -119,7 +128,7 @@ hr {
 
 .card-category {
   margin-bottom: 6px;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 11px;
   color: #1cc7a5; }
 
@@ -128,6 +137,13 @@ hr {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden; }
+
+.card-open {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0.5;
+  transition: all 0.2s ease; }
 
 .fir-imageover-color {
   height: 80px;
