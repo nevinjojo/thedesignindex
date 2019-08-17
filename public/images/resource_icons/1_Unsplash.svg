@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
     <title>1_Unsplash</title>
     <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.0707768794" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.104731206" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Home-Copy-5" transform="translate(-106.000000, -226.000000)">
-            <g id="1_Unsplash" transform="translate(106.000000, 226.000000)">
-                <rect id="Rectangle-Copy-4" fill="#C6F1E8" x="0" y="0" width="103" height="103" rx="15"></rect>
-                <g id="Group-3" transform="translate(25.000000, 23.000000)" fill="#1BC7A4">
+        <g id="Home-Copy-5" transform="translate(-97.000000, -297.000000)">
+            <g id="1_Unsplash" transform="translate(97.000000, 297.000000)">
+                <rect id="Rectangle-Copy-4" fill="#44DBBD" x="0" y="0" width="103" height="103" rx="15"></rect>
+                <g id="Group-3" opacity="0.779134115" transform="translate(25.000000, 23.000000)" fill="#167C6B">
                     <polygon id="Fill-1" points="37.2247139 24 37.2247139 38.7308408 16.6154981 38.7308408 16.6154981 24.0230009 0 24.0230009 0 54 54 54 54 24"></polygon>
                     <polygon id="Fill-2" points="17 15 37 15 37 0 17 0"></polygon>
                 </g>
+                <rect id="Rectangle-Copy-4" fill="url(#linearGradient-1)" opacity="0.504278274" x="0" y="0" width="103" height="103" rx="15"></rect>
             </g>
         </g>
     </g>
