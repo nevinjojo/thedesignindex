@@ -1,7 +1,7 @@
-let selected_category = "All";
+let selected_category = "All Categories";
 
 let category_colours = {
-  "All": "#000000",
+  "All Categories": "#000000",
   "Photos": "#1BC7A4",
   "Mockups": "#01B0D6",
   "Illustration": "#3684EF",
@@ -271,7 +271,7 @@ function loadResources(category) {
   document.getElementById("dropdownMenu3").innerHTML = category;
   let selected_resources = [];
   for (let resource of resources) {
-    if (resource.category === selected_category || selected_category === "All") {
+    if (resource.category === selected_category || selected_category === "All Categories") {
       selected_resources.push(resource);
     }
   }
