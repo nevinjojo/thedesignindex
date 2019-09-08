@@ -1,4 +1,5 @@
 let selected_category = "All Categories";
+let selected_job_type = "All Job Types";
 
 let category_colours = {
   "All Categories": "#000000",
@@ -18,7 +19,7 @@ let resources = [
     title: "Kaboompics",
     description: "Great place to get breathtaking free pictures for business or personal projects.",
     category: "Photos",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "http://kaboompics.com/",
     icon_link: "images/resource_icons/1_Kaboompics.svg"
   },
@@ -26,7 +27,7 @@ let resources = [
     title: "Pexels",
     description: "Free high quality photos you can use anywhere that require no attribution.",
     category: "Photos",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "http://pexels.com/",
     icon_link: "images/resource_icons/1_Pexels.svg"
   },
@@ -34,7 +35,7 @@ let resources = [
     title: "Stocksnap",
     description: "High quality and high resolution images free from all copyright restrictions.",
     category: "Photos",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://stocksnap.io/",
     icon_link: "images/resource_icons/1_Stocksnap.svg"
   },
@@ -42,7 +43,7 @@ let resources = [
     title: "Unsplash",
     description: "The internet's source of freely usable images. Powered by creators everywhere.",
     category: "Photos",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://unsplash.com/",
     icon_link: "images/resource_icons/1_Unsplash.svg"
   },
@@ -50,7 +51,7 @@ let resources = [
     title: "Graphic Burger",
     description: "Tasty design resources made with care that are free for commercial use.",
     category: "Mockups",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://graphicburger.com/",
     icon_link: "images/resource_icons/2_Graphicburger.svg"
   },
@@ -58,7 +59,7 @@ let resources = [
     title: "Pixeden",
     description: "Premium design mockups for packaging, stationery, technology and more.",
     category: "Mockups",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer"],
     url: "https://www.pixeden.com/free-design-web-resources",
     icon_link: "images/resource_icons/2_Pixaden.svg"
   },
@@ -66,7 +67,7 @@ let resources = [
     title: "Pixel Buddha",
     description: "Free mock-ups and various other design resources such as UI kits & fonts.",
     category: "Mockups",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://pixelbuddha.net/freebies",
     icon_link: "images/resource_icons/2_Pixelbuddha.svg"
   },
@@ -74,7 +75,7 @@ let resources = [
     title: "Humaaans",
     description: "Free mix & match illustrations of minimal people with a customisable design library.",
     category: "Illustration",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.humaaans.com",
     icon_link: "images/resource_icons/3_Humaaans.svg"
   },
@@ -82,7 +83,7 @@ let resources = [
     title: "Ouch!",
     description: "Free beautiful illustration sets by various different designers. Tons of styles to choose.",
     category: "Illustration",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://icons8.com/ouch",
     icon_link: "images/resource_icons/3_Ouch.svg"
   },
@@ -90,7 +91,7 @@ let resources = [
     title: "The Noun Project",
     description: "Over 2 million curated icons in various styles and packs.",
     category: "Icons",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://thenounproject.com",
     icon_link: "images/resource_icons/4_Thenounproject.svg"
   },
@@ -98,7 +99,7 @@ let resources = [
     title: "Flat Icon",
     description: "Curated packs of icons that are great for keeping a consistent style throughout a project.",
     category: "Icons",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.flaticon.com",
     icon_link: "images/resource_icons/4_Flaticon.svg"
   },
@@ -106,7 +107,7 @@ let resources = [
     title: "Icons8",
     description: "Great minimal icon packs for UI projects that you can filter by device type.",
     category: "Icons",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://icons8.com/icons",
     icon_link: "images/resource_icons/4_Icons8.svg"
   },
@@ -114,7 +115,7 @@ let resources = [
     title: "Icon Finder",
     description: "Various different icon styles including coloured and isometric sets.",
     category: "Icons",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.iconfinder.com/icon-sets/featured/free",
     icon_link: "images/resource_icons/4_Iconfinder.svg"
   },
@@ -122,7 +123,7 @@ let resources = [
     title: "Google Fonts",
     description: "The best website for implementing fonts into online projects, or quickly downloading great simple fonts.",
     category: "Fonts",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://fonts.google.com",
     icon_link: "images/resource_icons/5_Googlefonts.svg"
   },
@@ -130,7 +131,7 @@ let resources = [
     title: "Calligraphr",
     description: "Easy way to transform your handwriting into its own font to share or use in projects.",
     category: "Fonts",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.calligraphr.com/en/",
     icon_link: "images/resource_icons/5_Calligraphr.svg"
   },
@@ -138,7 +139,7 @@ let resources = [
     title: "Font Squirrel",
     description: "Great collections of free fonts for commercial use with great filters.",
     category: "Fonts",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.fontsquirrel.com",
     icon_link: "images/resource_icons/5_Fontsquirrel.svg"
   },
@@ -146,7 +147,7 @@ let resources = [
     title: "Font Space",
     description: "Collection of more obscure and unusual fonts that are great for design projects.",
     category: "Fonts",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.fontspace.com",
     icon_link: "images/resource_icons/5_Fontspace.svg"
   },
@@ -154,7 +155,7 @@ let resources = [
     title: "Coolors",
     description: "Best colour palette generator website with public gallery to find or download great inspiration.",
     category: "Colour",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://coolors.co/ea526f-e76b74-d7af70-937d64-585b56",
     icon_link: "images/resource_icons/6_Coolors.svg"
   },
@@ -162,7 +163,7 @@ let resources = [
     title: "Colour Hunt",
     description: "Curated list of soft and beautiful colour palettes.",
     category: "Colour",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://colorhunt.co",
     icon_link: "images/resource_icons/6_Colourhunt.svg"
   },
@@ -170,7 +171,7 @@ let resources = [
     title: "Gradients.io",
     description: "Short list of colourful and bold gradient for modern design projects.",
     category: "Colour",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "http://gradients.io",
     icon_link: "images/resource_icons/6_Gradientsio.svg"
   },
@@ -178,7 +179,7 @@ let resources = [
     title: "Khroma",
     description: "An AI colour tool that learns off you to recommend you personalised colour palettes.",
     category: "Colour",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "http://khroma.co/generator/",
     icon_link: "images/resource_icons/6_Khroma.svg"
   },
@@ -186,7 +187,7 @@ let resources = [
     title: "Awwwards",
     description: "Best curated list and collects of interesting and trending website inspiration.",
     category: "Inspiration",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.awwwards.com",
     icon_link: "images/resource_icons/7_Awwwards.svg"
   },
@@ -194,7 +195,7 @@ let resources = [
     title: "Behance",
     description: "Adobe's website for creatives to show off great in depth design projects.",
     category: "Inspiration",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.behance.net",
     icon_link: "images/resource_icons/7_Behance.svg"
   },
@@ -202,7 +203,7 @@ let resources = [
     title: "Dribbble",
     description: "Quick snippets of colourful and exciting UI and illustration inspiration.",
     category: "Inspiration",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://dribbble.com",
     icon_link: "images/resource_icons/7_Dribbble.svg"
   },
@@ -210,7 +211,7 @@ let resources = [
     title: "Mobbin",
     description: "Great collection of the latest iOS UI design patterns and screens.",
     category: "UX & UI",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://mobbin.design",
     icon_link: "images/resource_icons/8_Mobbin.svg"
   },
@@ -218,7 +219,7 @@ let resources = [
     title: "Sketchsheets",
     description: "Ready to print sketch sheet templates for UX designers.",
     category: "UX & UI",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://sketchsheets.com",
     icon_link: "images/resource_icons/8_Sketchsheets.svg"
   },
@@ -226,7 +227,7 @@ let resources = [
     title: "UI Sources",
     description: "More creative and unusual UI modern design patterns and screens.",
     category: "UX & UI",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://www.uisources.com",
     icon_link: "images/resource_icons/8_Uisources.svg"
   },
@@ -234,7 +235,7 @@ let resources = [
     title: "Paper Sizes",
     description: "The best resource for international paper sizes, dimensions & formats.",
     category: "Other",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://papersizes.io",
     icon_link: "images/resource_icons/9_Papersizes.svg"
   },
@@ -242,7 +243,7 @@ let resources = [
     title: "Briefbox",
     description: "Practice design briefs & skill development for when you feel stuck.",
     category: "Other",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://briefbox.me",
     icon_link: "images/resource_icons/9_Briefbox.svg"
   },
@@ -250,11 +251,21 @@ let resources = [
     title: "SmallPDF",
     description: "All-in-one easy-to-use online PDF tools with tons of different quick features.",
     category: "Other",
-    job_types: ["Designer, Web Designer"],
+    job_types: ["Designer", "Web Designer"],
     url: "https://smallpdf.com",
     icon_link: "images/resource_icons/9_Smallpdf.svg"
   }
 ];
+
+function setCategory(category) {
+  selected_category = category;
+  loadResources();
+}
+
+function setJobTypes(jobType) {
+  selected_job_type = jobType;
+  loadResources();
+}
 
 function resetResources() {
   let resourceDiv = document.getElementById('resourceRow');
@@ -265,14 +276,16 @@ function resetResources() {
   }
 }
 
-function loadResources(category) {
+function loadResources() {
   resetResources();
-  selected_category = category;
-  document.getElementById("dropdownMenu3").innerHTML = category;
+  document.getElementsByClassName("category-dropdown")[0].innerHTML = selected_category;
+  document.getElementsByClassName("jobType-dropdown")[0].innerHTML = selected_job_type;
   let selected_resources = [];
   for (let resource of resources) {
     if (resource.category === selected_category || selected_category === "All Categories") {
-      selected_resources.push(resource);
+      if (resource.job_types.includes(selected_job_type) || selected_job_type === "All Job Types") {
+        selected_resources.push(resource);
+      }
     }
   }
   createResources(selected_resources);
