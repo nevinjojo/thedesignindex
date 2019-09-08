@@ -286,7 +286,7 @@ function resetResources() {
 function loadResources() {
   resetResources();
   document.getElementsByClassName("category-dropdown")[0].innerHTML = selected_category;
-  document.getElementsByClassName("jobType-dropdown")[0].innerHTML = selected_job_type;
+  // document.getElementsByClassName("jobType-dropdown")[0].innerHTML = selected_job_type;
   let selected_resources = [];
   for (let resource of resources) {
     if (resource.category === selected_category || selected_category === "All Categories") {
