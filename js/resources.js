@@ -1,6 +1,8 @@
+// filters chosen by the user
 let selected_category = "All Categories";
 let selected_job_type = "All Job Types";
 
+// Colours that represents the categories
 let category_colours = {
   "All Categories": "#000000",
   "Photos": "#1BC7A4",
@@ -14,6 +16,7 @@ let category_colours = {
   "Other": "#42C241"
 };
 
+// List of Resource objects that will be displayed on the website.
 let resources = [
   {
     title: "Kaboompics",
@@ -257,16 +260,19 @@ let resources = [
   }
 ];
 
+// Sets the Category to filter through resources.
 function setCategory(category) {
   selected_category = category;
   loadResources();
 }
 
+// Sets the Job Type to filter through resources.
 function setJobTypes(jobType) {
   selected_job_type = jobType;
   loadResources();
 }
 
+// Removes children of `resourceRow` to load filtered resource list.
 function resetResources() {
   let resourceDiv = document.getElementById('resourceRow');
   let child = resourceDiv.lastElementChild;
@@ -276,6 +282,7 @@ function resetResources() {
   }
 }
 
+// Load resources based on filter parameters specified by the user.
 function loadResources() {
   resetResources();
   document.getElementsByClassName("category-dropdown")[0].innerHTML = selected_category;
@@ -291,6 +298,7 @@ function loadResources() {
   createResources(selected_resources);
 }
 
+// Append resource children to `resourceRow` div iteratively.
 function createResources(resources) {
   for (let resource of resources) {
     let resourceString = '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 resource-card">' +
