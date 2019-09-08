@@ -5,7 +5,7 @@ let selected_job_type = "All Job Types";
 // Colours that represents the categories
 let category_colours = {
   "All Categories": "#000000",
-  "Photos": "#1BC7A4",
+  "Photo & Video": "#1BC7A4",
   "Mockups": "#01B0D6",
   "Illustration": "#3684EF",
   "Icons": "#8F55E2",
@@ -21,7 +21,7 @@ let resources = [
   {
     title: "Kaboompics",
     description: "Great place to get breathtaking free pictures for business or personal projects.",
-    category: "Photos",
+    category: "Photo & Video",
     job_types: ["Designer", "Web Designer"],
     url: "http://kaboompics.com/",
     icon_link: "images/resource_icons/1_Kaboompics.svg"
@@ -29,7 +29,7 @@ let resources = [
   {
     title: "Pexels",
     description: "Free high quality photos you can use anywhere that require no attribution.",
-    category: "Photos",
+    category: "Photo & Video",
     job_types: ["Designer", "Web Designer"],
     url: "http://pexels.com/",
     icon_link: "images/resource_icons/1_Pexels.svg"
@@ -37,7 +37,7 @@ let resources = [
   {
     title: "Stocksnap",
     description: "High quality and high resolution images free from all copyright restrictions.",
-    category: "Photos",
+    category: "Photo & Video",
     job_types: ["Designer", "Web Designer"],
     url: "https://stocksnap.io/",
     icon_link: "images/resource_icons/1_Stocksnap.svg"
@@ -45,7 +45,7 @@ let resources = [
   {
     title: "Unsplash",
     description: "The internet's source of freely usable images. Powered by creators everywhere.",
-    category: "Photos",
+    category: "Photo & Video",
     job_types: ["Designer", "Web Designer"],
     url: "https://unsplash.com/",
     icon_link: "images/resource_icons/1_Unsplash.svg"
