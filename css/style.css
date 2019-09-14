@@ -27,7 +27,16 @@ a:hover {
 }
 
 .filter-header {
+    padding-left: 14px;
     padding-bottom: 6px;
+    position: inherit;
+    display: inline;
+}
+
+.dropdown {
+  position: inherit;
+  display: inline;
+  margin-right: 8px;
 }
 
 hr {
@@ -224,6 +233,7 @@ hr {
     font-size: 11px;
     color: #1cc7a5;
     letter-spacing: 0.25px;
+    display: inline-block;
 }
 
 .card-description {
