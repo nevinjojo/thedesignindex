@@ -29,14 +29,13 @@ a:hover {
 .filter-header {
     padding-left: 14px;
     padding-bottom: 6px;
-    position: inherit;
     display: inline;
 }
 
 .dropdown {
-  position: inherit;
   display: inline;
   margin-right: 8px;
+  margin-bottom: 8px;
 }
 
 hr {
@@ -216,7 +215,7 @@ hr {
 .card-title {
     font-weight: 800;
     font-size: 19px;
-    line-height: 24px;
+    line-height: 22px;
     margin-top: -4px;
     margin-bottom: 6px;
     color: #323E48;
@@ -305,12 +304,66 @@ hr {
         margin-right: 28px;
         margin-bottom: 60px;
     }
+    .resource-card-wrapper {
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+
+    .card-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-icon img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-text-container {
+        margin-top: 12px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        margin-right: 4vw;
+    }
+
+    .card-description {
+        -webkit-line-clamp: 2;
+    }
+    .card-open {
+        top: 11px;
+        right: 13px;
+    }
 }
 
 @media only screen and (max-width: 35.95em) {
     .header {
         margin-left: -5px;
         margin-right: -5px;
+    }
+
+    .dropdown {
+        display: block;
+        margin-right: 8px;
+        margin-bottom: 1px;
+
+    }
+
+    .filter-header {
+        margin-top: -5px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .filter {
+        font-size: 14px;
+        font-weight: 600;
+        color: #687482;
+        background-color: #E8ECF1;
+        height: 38px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: left;
     }
 
     .box {
@@ -348,6 +401,16 @@ hr {
     .card-open {
         top: 11px;
         right: 13px;
+    }
+
+    #dropdownMenu3 {
+      margin-top: 10px;
+    }
+    .dropdown-menu {
+      width: 100%;
+    }
+    .dropdown-item {
+      line-height: 20px;
     }
 
 }
