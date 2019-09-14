@@ -310,33 +310,37 @@ function loadResources() {
 
 // Append resource children to `resourceRow` div iteratively.
 function createResources(resources) {
-  for (let resource of resources) {
-    let resourceString = '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 resource-card">' +
-      '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
-      '          <div class="resource-card-wrapper">' +
-      '            <div class="card-content">' +
-      '              <div class="card-open">' +
-      '                <img src="images/open.svg">' +
-      '              </div>' +
-      '              <div class="card-icon-container">' +
-      '                <div class="card-icon" alt="' + resource.title + 'Logo">' +
-      '                  <img src="' + resource.icon_link + '" alt="' + resource.title + 'Logo"/>' +
-      '                </div>' +
-      '              </div>' +
-      '              <div class="card-text-container">' +
-      '                <div class="card-text card-category"' +
-      '                     style="color: ' + category_colours[resource.category] + '">' + resource.category + '</div>' +
-      '                <div class="card-text card-category"' +
-      '                     style="color: ' + category_colours[resource.category] + '">' + resource.price + '</div>' +
-      '                <div class="card-text card-title">' + resource.title + '</div>' +
-      '                <div class="card-text card-description">' + resource.description + '</div>' +
-      '              </div>' +
-      '            </div>' +
-      '          </div>' +
-      '        </a>' +
-      '      </div>'
-    ;
+  if (resources.length === 0) {
+    let resourceString = '<div class="card-text card-title">No resources found.</div>';
     let div = document.getElementById('resourceRow');
     div.insertAdjacentHTML('beforeend', resourceString);
+  } else {
+    for (let resource of resources) {
+      let resourceString = '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 resource-card">' +
+        '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
+        '          <div class="resource-card-wrapper">' +
+        '            <div class="card-content">' +
+        '              <div class="card-open">' +
+        '                <img src="images/open.svg">' +
+        '              </div>' +
+        '              <div class="card-icon-container">' +
+        '                <div class="card-icon" alt="' + resource.title + 'Logo">' +
+        '                  <img src="' + resource.icon_link + '" alt="' + resource.title + 'Logo"/>' +
+        '                </div>' +
+        '              </div>' +
+        '              <div class="card-text-container">' +
+        '                <div class="card-text card-category"' +
+        '                     style="color: ' + category_colours[resource.category] + '">' + resource.category + ' | ' + resource.price  +'</div>' +
+        '                <div class="card-text card-title">' + resource.title + '</div>' +
+        '                <div class="card-text card-description">' + resource.description + '</div>' +
+        '              </div>' +
+        '            </div>' +
+        '          </div>' +
+        '        </a>' +
+        '      </div>'
+      ;
+      let div = document.getElementById('resourceRow');
+      div.insertAdjacentHTML('beforeend', resourceString);
+    }
   }
 }
