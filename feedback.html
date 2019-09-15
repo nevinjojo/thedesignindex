@@ -1,21 +1,4 @@
-<?php
-
-if($_POST["submit"]) {
-    $recipient="nevinjojo98@gmail.com";
-    $subject="Feedback: The Design Index";
-    $sender=$_POST["sender"];
-    $senderEmail=$_POST["senderEmail"];
-    $message=$_POST["message"];
-
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
-
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-
-    $thankYou="<p>Thank you for your feedback! Your message has been sent.</p>";
-}
-
-?><!DOCTYPE html>
-
+<!doctype html>
 <html lang="en" xml:lang="en">
 <head>
   <title>The Design Index</title>
@@ -73,34 +56,22 @@ if($_POST["submit"]) {
   <!-- Top Header -->
   <div class="container-fluid header brand-header">
     <a class="navbar-brand mb-0 h1" href="#"><img src="images/logo.svg" width="230" class="d-inline-block align-top" alt=""></a>
-    <a class="navbar-text feedback" href="mailto:nikolai@icloud.com?subject=Feedback%20for%20The%20Design%20Index">Send feedback</a>
+    <a class="navbar-text feedback" href="index.html">Home</a>
   </div>
 
   <!-- Bottom Header -->
   <div class="container-fluid header slogan-header">
     <h6 class="navbar-text slogan">A hand-picked directory of the best design resources and tools</h6>
-    <span class="navbar-text last-updated">Last updated on Sept 2019</span>
   </div>
 </nav>
 
 <!-- Resource Wrapper -->
 <div class="box">
-  <div class="resource-wrapper">
-    <?=$thankYou ?>
-
-    <form method="post" action="contact.php">
-      <label>Name:</label>
-      <input name="sender">
-
-      <label>Email address:</label>
-      <input name="senderEmail">
-
-      <label>Message:</label>
-      <textarea rows="5" cols="20" name="message"></textarea>
-
-      <input type="submit" name="submit">
-    </form>
-  </div>
+  <form action="https://formspree.io/nevinjojo98@gmail.com" method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+  </form>
 </div>
 
 <!-- Footer -->
@@ -117,17 +88,4 @@ if($_POST["submit"]) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html>
-
-
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Contact form to email</title>
-</head>
-
-<body>
-
-</body>
-
 </html>
