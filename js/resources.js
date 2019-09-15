@@ -1,7 +1,7 @@
 // filters chosen by the user
 let selected_category = "All Categories";
-let selected_job_type = "All Job Types";
-let selected_price = "All Price Ranges";
+let selected_job_type = "All Jobs";
+let selected_price = "All Prices";
 
 // Colours that represents the categories
 let category_colours = {
@@ -39,7 +39,8 @@ let resources = [
     title: "Stocksnap",
     description: "High quality and high resolution images free from all copyright restrictions.",
     category: "Photo & Video",
-    job_types: ["Designer", "Web Designer"], price: "Free",
+    job_types: ["Designer", "Web Designer"],
+    price: "Free",
     url: "https://stocksnap.io/",
     icon_link: "images/resource_icons/1_Stocksnap.svg"
   },
@@ -95,7 +96,7 @@ let resources = [
     title: "The Noun Project",
     description: "Over 2 million curated icons in various styles and packs.",
     category: "Icons",
-    job_types: ["Designer", "Web Designer"], price: "$",
+    job_types: ["Designer", "Web Designer"], price: "$34/m",
     url: "https://thenounproject.com",
     icon_link: "images/resource_icons/4_Thenounproject.svg"
   },
@@ -298,9 +299,9 @@ function loadResources() {
   let selected_resources = [];
   for (let resource of resources) {
     if (resource.category === selected_category || selected_category === "All Categories") {
-      if (resource.job_types.includes(selected_job_type) || selected_job_type === "All Job Types") {
-        if (resource.price === selected_price || selected_price === "All Price Ranges") {
-          selected_resources.push(resource);
+      if (resource.job_types.includes(selected_job_type) || selected_job_type === "All Jobs") {
+        if (resource.price === selected_price || selected_price === "All Prices" || (selected_price === "Paid" && resource.price.includes("$"))) {
+          selected_resources.push(resource)
         }
       }
     }
@@ -330,7 +331,7 @@ function createResources(resources) {
         '              </div>' +
         '              <div class="card-text-container">' +
         '                <div class="card-text card-category"' +
-        '                     style="color: ' + category_colours[resource.category] + '">' + resource.category + '\xa0\xa0|\xa0\xa0' + resource.price  +'</div>' +
+        '                     style="color: ' + category_colours[resource.category] + '">' + resource.category + '<span class="divider">\xa0\xa0|\xa0\xa0</span>' + resource.price  +'</div>' +
         '                <div class="card-text card-title">' + resource.title + '</div>' +
         '                <div class="card-text card-description">' + resource.description + '</div>' +
         '              </div>' +

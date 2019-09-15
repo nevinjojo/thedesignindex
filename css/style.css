@@ -269,6 +269,10 @@ hr {
     padding: 25%;
 }
 
+.divider {
+    color: #bec7cf;
+}
+
 .copyright {
     color: #7B8794;
     letter-spacing: 0.25px;
