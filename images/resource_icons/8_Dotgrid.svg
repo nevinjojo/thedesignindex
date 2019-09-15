@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>8_Dotgrid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.0707768794" offset="0%"></stop>
+            <stop stop-color="#0B1A3F" stop-opacity="0.104731206" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-5" transform="translate(-909.000000, -1772.000000)">
+            <g id="8_Dotgrid" transform="translate(909.000000, 1772.000000)">
+                <g id="8_Mobbin" fill="#FFD564" fill-rule="nonzero">
+                    <rect id="Rectangle-Copy-58" x="0" y="0" width="103" height="103" rx="15"></rect>
+                </g>
+                <rect id="Rectangle-Copy-49" fill="url(#linearGradient-1)" opacity="0.665108817" x="0" y="0" width="103" height="103" rx="15"></rect>
+                <circle id="Oval" fill="#E1A70A" cx="52" cy="52" r="4"></circle>
+                <circle id="Oval" fill="#E1A70A" cx="34" cy="52" r="4"></circle>
+                <circle id="Oval-Copy" fill="#E1A70A" cx="70" cy="52" r="4"></circle>
+                <circle id="Oval" fill="#E1A70A" cx="52" cy="34" r="4"></circle>
+                <circle id="Oval-Copy-2" fill="#E1A70A" cx="52" cy="70" r="4"></circle>
+                <circle id="Oval" fill="#E1A70A" cx="34" cy="34" r="4"></circle>
+                <circle id="Oval-Copy-3" fill="#E1A70A" cx="34" cy="70" r="4"></circle>
+                <circle id="Oval-Copy" fill="#E1A70A" cx="70" cy="34" r="4"></circle>
+                <circle id="Oval-Copy-4" fill="#E1A70A" cx="70" cy="70" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

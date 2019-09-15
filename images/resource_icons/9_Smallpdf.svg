@@ -14,16 +14,16 @@
             <g id="9_Smallpdf" transform="translate(969.000000, 1997.000000)">
                 <g>
                     <rect id="Rectangle-Copy-72" fill="#92E58D" fill-rule="nonzero" x="0" y="0" width="103" height="103" rx="15"></rect>
-                    <g id="Group-14" transform="translate(22.000000, 21.000000)" stroke="#32BB5F">
-                        <polygon id="Fill-1" fill="#32BB5F" fill-rule="nonzero" points="0 20 20 20 20 0 0 0"></polygon>
-                        <polygon id="Stroke-2" points="20 20 40 20 40 0 20 0"></polygon>
-                        <polygon id="Fill-4" fill="#32BB5F" fill-rule="nonzero" points="39 20 59 20 59 0 39 0"></polygon>
-                        <polygon id="Stroke-5" points="0 40 20 40 20 20 0 20"></polygon>
-                        <polygon id="Fill-7" fill="#32BB5F" fill-rule="nonzero" points="21 39 39 39 39 21 21 21"></polygon>
-                        <polygon id="Stroke-8" points="39 40 59 40 59 20 39 20"></polygon>
-                        <polygon id="Fill-10" fill="#32BB5F" fill-rule="nonzero" points="0 59 20 59 20 39 0 39"></polygon>
-                        <polygon id="Stroke-11" points="20 59 40 59 40 39 20 39"></polygon>
-                        <polygon id="Fill-13" fill="#32BB5F" fill-rule="nonzero" points="39 59 59 59 59 39 39 39"></polygon>
+                    <g id="Group-14" transform="translate(23.000000, 22.000000)">
+                        <polygon id="Fill-1" fill="#37B862" fill-rule="nonzero" points="0 19 19 19 19 0 0 0"></polygon>
+                        <polygon id="Stroke-2" fill="#3BB565" opacity="0.369140625" points="19 19 38 19 38 0 19 0"></polygon>
+                        <polygon id="Fill-4" fill="#37B862" fill-rule="nonzero" opacity="0.881347656" points="38 19 57 19 57 0 38 0"></polygon>
+                        <polygon id="Stroke-5" fill="#3BB565" opacity="0.369140625" points="0 38 19 38 19 19 0 19"></polygon>
+                        <polygon id="Fill-7" fill="#37B862" fill-rule="nonzero" points="19 38 38 38 38 19 19 19"></polygon>
+                        <polygon id="Stroke-8" fill="#3BB565" opacity="0.369140625" points="38 38 57 38 57 19 38 19"></polygon>
+                        <polygon id="Fill-10" fill="#37B862" fill-rule="nonzero" opacity="0.847726004" points="0 57 19 57 19 38 0 38"></polygon>
+                        <polygon id="Stroke-11" fill="#3BB565" opacity="0.369140625" points="19 57 38 57 38 38 19 38"></polygon>
+                        <polygon id="Fill-13" fill="#37B862" fill-rule="nonzero" points="38 57 57 57 57 38 38 38"></polygon>
                     </g>
                 </g>
                 <rect id="Rectangle-Copy-56" fill="url(#linearGradient-1)" opacity="0.665108817" x="0" y="0" width="103" height="103" rx="15"></rect>

@@ -13,33 +13,24 @@ let category_colours = {
   "Fonts": "#E56FBB",
   "Colour": "#FF3423",
   "Inspiration": "#FF8300",
-  "UX & UI": "#FFBA01",
+  "Applications": "#FFBA01",
   "Other": "#42C241"
 };
 
 // List of Resource objects that will be displayed on the website.
 let resources = [
   {
-    title: "Kaboompics",
-    description: "Great place to get breathtaking free pictures for business or personal projects.",
+    title: "Unsplash",
+    description: "The largest and best source for free to use images.",
     category: "Photo & Video",
-    job_types: ["Graphic Designer"],
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "http://kaboompics.com/",
-    icon_link: "images/resource_icons/1_Kaboompics.svg"
-  },
-  {
-    title: "Pexels",
-    description: "Free high quality photos you can use anywhere that require no attribution.",
-    category: "Photo & Video",
-    job_types: ["Graphic Designer"],
-    price: "Free",
-    url: "http://pexels.com/",
-    icon_link: "images/resource_icons/1_Pexels.svg"
+    url: "https://unsplash.com/",
+    icon_link: "images/resource_icons/1_Unsplash.svg"
   },
   {
     title: "Stocksnap",
-    description: "High quality and high resolution images free from all copyright restrictions.",
+    description: "High quality and high resolution images for free.",
     category: "Photo & Video",
     job_types: ["Graphic Designer"],
     price: "Free",
@@ -47,13 +38,22 @@ let resources = [
     icon_link: "images/resource_icons/1_Stocksnap.svg"
   },
   {
-    title: "Unsplash",
-    description: "The internet's source of freely usable images. Powered by creators everywhere.",
+    title: "Pexels",
+    description: "Free high quality photos you can use anywhere with no attribution.",
     category: "Photo & Video",
-    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
+    job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://unsplash.com/",
-    icon_link: "images/resource_icons/1_Unsplash.svg"
+    url: "http://pexels.com/",
+    icon_link: "images/resource_icons/1_Pexels.svg"
+  },
+  {
+    title: "Coverr",
+    description: "Beautiful free videos to use in projects or websites.",
+    category: "Photo & Video",
+    job_types: ["Graphic Designer"],
+    price: "Free",
+    url: "https://coverr.co",
+    icon_link: "images/resource_icons/1_Coverr.svg"
   },
   {
     title: "Graphic Burger",
@@ -67,7 +67,7 @@ let resources = [
   {
     title: "Pixeden",
     description: "Premium design mockups for packaging, stationery, technology and more.",
-    category: "Graphic Designer",
+    category: "Mockups",
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://www.pixeden.com/free-design-web-resources",
@@ -76,7 +76,7 @@ let resources = [
   {
     title: "Pixel Buddha",
     description: "Free mock-ups and various other design resources such as UI kits & fonts.",
-    category: ["Graphic Designer", "Web Designer"],
+    category: "Mockups",
     job_types: ["Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://pixelbuddha.net/freebies",
@@ -138,7 +138,7 @@ let resources = [
   },
   {
     title: "Google Fonts",
-    description: "The best website for implementing fonts into online projects, or quickly downloading great simple fonts.",
+    description: "The best website for implementing fonts into online projects.",
     category: "Fonts",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
@@ -147,7 +147,7 @@ let resources = [
   },
   {
     title: "Calligraphr",
-    description: "Easy way to transform your handwriting into its own font to share or use in projects.",
+    description: "Easy way to transform your handwriting into its own font.",
     category: "Fonts",
     job_types: ["Graphic Designer", "Illustrator"],
     price: "Free",
@@ -174,7 +174,7 @@ let resources = [
   },
   {
     title: "Coolors",
-    description: "Best colour palette generator website with public gallery to find or download great inspiration.",
+    description: "Best colour palette generator website with public gallery to find and download.",
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
@@ -191,13 +191,13 @@ let resources = [
     icon_link: "images/resource_icons/6_Colourhunt.svg"
   },
   {
-    title: "Gradients.io",
-    description: "Short list of colourful and bold gradient for modern design projects.",
+    title: "WebGradients",
+    description: "A free collection of gradients great for digital projects.",
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "http://gradients.io",
-    icon_link: "images/resource_icons/6_Gradientsio.svg"
+    url: "https://webgradients.com",
+    icon_link: "images/resource_icons/6_Webgradients.svg"
   },
   {
     title: "Khroma",
@@ -238,29 +238,47 @@ let resources = [
   {
     title: "Mobbin",
     description: "Great collection of the latest iOS UI design patterns and screens.",
-    category: "UX & UI",
+    category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://mobbin.design",
-    icon_link: "images/resource_icons/8_Mobbin.svg"
-  },
-  {
-    title: "Sketchsheets",
-    description: "Ready to print sketch sheet templates for UX designers.",
-    category: "UX & UI",
-    job_types: ["Web Designer", "UX/UI Designer"],
-    price: "Free",
-    url: "https://sketchsheets.com",
-    icon_link: "images/resource_icons/8_Sketchsheets.svg"
+    icon_link: "images/resource_icons/7_Mobbin.svg"
   },
   {
     title: "UI Sources",
     description: "More creative and unusual UI modern design patterns and screens.",
-    category: "UX & UI",
+    category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://www.uisources.com",
-    icon_link: "images/resource_icons/8_Uisources.svg"
+    icon_link: "images/resource_icons/7_Uisources.svg"
+  },
+  {
+    title: "Sketch",
+    description: "The best website & UI design and prototyping software.",
+    category: "Applications",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "$99",
+    url: "https://www.sketch.com/",
+    icon_link: "images/resource_icons/8_Sketch.svg"
+  },
+  {
+    title: "Dotgrid",
+    description: "A grid-based vector drawing software designed to create logos, icons and type.",
+    category: "Applications",
+    job_types: ["Graphic Designer", "Illustrator"],
+    price: "Free",
+    url: "https://hundredrabbits.itch.io/dotgrid",
+    icon_link: "images/resource_icons/8_Dotgrid.svg"
+  },
+  {
+    title: "Spark Mail",
+    description: "The best simple personal email client currently available.",
+    category: "Applications",
+    job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://sparkmailapp.com/",
+    icon_link: "images/resource_icons/8_Spark.svg"
   },
   {
     title: "Paper Sizes",
@@ -270,6 +288,15 @@ let resources = [
     price: "Free",
     url: "https://papersizes.io",
     icon_link: "images/resource_icons/9_Papersizes.svg"
+  },
+  {
+    title: "Sketchsheets",
+    description: "Ready to print sketch sheet templates for UX designers.",
+    category: "Other",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://sketchsheets.com",
+    icon_link: "images/resource_icons/9_Sketchsheets.svg"
   },
   {
     title: "Briefbox",

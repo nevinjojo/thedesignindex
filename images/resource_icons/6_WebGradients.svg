@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>6_WebGradients</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E64C4E" offset="0%"></stop>
+            <stop stop-color="#C82526" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.0707768794" offset="0%"></stop>
+            <stop stop-color="#0B1A3F" stop-opacity="0.104731206" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-5" transform="translate(-97.000000, -1486.000000)">
+            <g id="6_WebGradients" transform="translate(97.000000, 1486.000000)">
+                <g id="6_Gradientsio" fill="#FF756D" fill-rule="nonzero">
+                    <rect id="Rectangle-Copy-44" x="0" y="0" width="103" height="103" rx="15"></rect>
+                </g>
+                <circle id="Oval" fill="url(#linearGradient-1)" cx="52" cy="52" r="34"></circle>
+                <rect id="Rectangle-Copy-45" fill="url(#linearGradient-2)" opacity="0.610165551" x="0" y="0" width="103" height="103" rx="15"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
