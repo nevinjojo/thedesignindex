@@ -38,6 +38,12 @@ a:hover {
   margin-bottom: 8px;
 }
 
+.dropdown-toggle::after {
+    float: right !important;
+    margin-top: 9px !important;
+    margin-left: 8px !important;
+}
+
 hr {
     border: 0;
     width: 100%;
