@@ -312,7 +312,7 @@ function loadResources() {
 // Append resource children to `resourceRow` div iteratively.
 function createResources(resources) {
   if (resources.length === 0) {
-    let resourceString = '<div class="card-text card-title">No resources found.</div>';
+    let resourceString = '<div class="none"><img src="images/logo2.svg" style="width:100px;"><br><br><br>No resources found!</div>';
     let div = document.getElementById('resourceRow');
     div.insertAdjacentHTML('beforeend', resourceString);
   } else {

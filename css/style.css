@@ -274,6 +274,17 @@ hr {
     padding: 25%;
 }
 
+.none {
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 18px;
+  color: #7B8794;
+  width: 100%;
+  text-align: center;
+  margin-top: 18vh;
+}
+
 .divider {
     color: #bec7cf;
 }
