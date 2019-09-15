@@ -300,6 +300,69 @@ hr {
     letter-spacing: 0.25px;
 }
 
+/* -----------------------
+  Form
+----------------------- */
+.form-control {
+    border-radius: 0;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+.form-group > label {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #a1a2a3;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    pointer-events: none;
+    position: relative;
+    z-index: 5;
+}
+.form-group > input {
+    width: 100%;
+}
+.form-group > label {
+    transition: -webkit-transform 0.4s;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(1.4) translateY(20px);
+    transform: scale(1.4) translateY(20px);
+}
+.form-group.not-empty > label {
+    -webkit-transform: none;
+    transform: none;
+}
+/*------------------------------
+	Form
+------------------------------*/
+.form-control {
+    border: 0;
+    border-bottom: 1px solid #a1a2a3;
+}
+.form-control,
+.form-control:focus,
+.form-control:focus:hover {
+    color: #ff8d00;
+    background: none;
+    outline: none;
+}
+.form-control:focus,
+.form-control:focus:hover {
+    border-bottom: 1px solid #ff8d00;
+}
+
+
+/*------------------------------
+	Responsive Styling
+------------------------------*/
+
 @media only screen and (max-width: 80.95em) and (min-width: 61.95em) {
     .header {
         margin-left: 0px;
