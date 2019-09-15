@@ -300,6 +300,7 @@ hr {
     letter-spacing: 0.25px;
 }
 
+
 @media only screen and (max-width: 80.95em) and (min-width: 61.95em) {
     .header {
         margin-left: 0px;
