@@ -330,7 +330,7 @@ function createResources(resources) {
         '              </div>' +
         '              <div class="card-text-container">' +
         '                <div class="card-text card-category"' +
-        '                     style="color: ' + category_colours[resource.category] + '">' + resource.category + ' | ' + resource.price  +'</div>' +
+        '                     style="color: ' + category_colours[resource.category] + '">' + resource.category + '\xa0\xa0|\xa0\xa0' + resource.price  +'</div>' +
         '                <div class="card-text card-title">' + resource.title + '</div>' +
         '                <div class="card-text card-description">' + resource.description + '</div>' +
         '              </div>' +
