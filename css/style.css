@@ -108,10 +108,11 @@ hr {
   border-radius: 100px;
   border-color: #939CA6;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
-  transition: color .1s ease-in-out,background-color .1s ease-in-out,border-color .1s ease-in-out,box-shadow .1s ease-in-out;
+  transition: color .1s ease-in-out,background-color .04s ease-in-out,border-color .04s ease-in-out,box-shadow .04s ease-in-out;
 }
 
 .dropdown-menu {
+  margin-top: 12px;
   font-weight: 600;
   background-color: #ffffff;
   border-color: #E2E6E9;
@@ -215,9 +216,9 @@ hr {
 .card-title {
     font-weight: 800;
     font-size: 19px;
-    line-height: 22px;
-    margin-top: -4px;
-    margin-bottom: 6px;
+    line-height: 24px;
+    margin-top: -5px;
+    margin-bottom: 4px;
     color: #323E48;
     overflow: hidden;
     display: -webkit-box;
@@ -233,6 +234,10 @@ hr {
     color: #1cc7a5;
     letter-spacing: 0.25px;
     display: inline-block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .card-description {
@@ -345,7 +350,9 @@ hr {
         display: block;
         margin-right: 8px;
         margin-bottom: 1px;
-
+    }
+    .dropdown-menu {
+      margin-top: 0px;
     }
 
     .filter-header {
