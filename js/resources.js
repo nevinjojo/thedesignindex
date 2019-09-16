@@ -197,7 +197,7 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://webgradients.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/6_Webgradients.svg"
+    icon_link: "images/resource_icons/6_WebGradients.svg"
   },
   {
     title: "Khroma",
