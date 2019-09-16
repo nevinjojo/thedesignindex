@@ -25,7 +25,7 @@ let resources = [
     category: "Photo & Video",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://unsplash.com/",
+    url: "https://unsplash.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Unsplash.svg"
   },
   {
@@ -34,7 +34,7 @@ let resources = [
     category: "Photo & Video",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://stocksnap.io/",
+    url: "https://stocksnap.io/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Stocksnap.svg"
   },
   {
@@ -43,7 +43,7 @@ let resources = [
     category: "Photo & Video",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "http://pexels.com/",
+    url: "http://pexels.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Pexels.svg"
   },
   {
@@ -52,7 +52,7 @@ let resources = [
     category: "Photo & Video",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://coverr.co",
+    url: "https://coverr.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Coverr.svg"
   },
   {
@@ -61,7 +61,7 @@ let resources = [
     category: "Mockups",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://graphicburger.com/",
+    url: "https://graphicburger.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Graphicburger.svg"
   },
   {
@@ -70,7 +70,7 @@ let resources = [
     category: "Mockups",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://www.pixeden.com/free-design-web-resources",
+    url: "https://www.pixeden.com/free-design-web-resources/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Pixaden.svg"
   },
   {
@@ -79,7 +79,7 @@ let resources = [
     category: "Mockups",
     job_types: ["Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://pixelbuddha.net/freebies",
+    url: "https://pixelbuddha.net/freebies/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Pixelbuddha.svg"
   },
   {
@@ -88,7 +88,7 @@ let resources = [
     category: "Illustration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://www.humaaans.com",
+    url: "https://www.humaaans.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/3_Humaaans.svg"
   },
   {
@@ -97,7 +97,7 @@ let resources = [
     category: "Illustration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://icons8.com/ouch",
+    url: "https://icons8.com/ouch/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/3_Ouch.svg"
   },
   {
@@ -106,7 +106,7 @@ let resources = [
     category: "Icons",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://thenounproject.com",
+    url: "https://thenounproject.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Thenounproject.svg"
   },
   {
@@ -114,8 +114,8 @@ let resources = [
     description: "Curated packs of icons that are great for keeping a consistent style throughout a project.",
     category: "Icons",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
-    price: "$3/m",
-    url: "https://www.flaticon.com",
+    price: "Free",
+    url: "https://www.flaticon.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Flaticon.svg"
   },
   {
@@ -124,7 +124,7 @@ let resources = [
     category: "Icons",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://icons8.com/icons",
+    url: "https://icons8.com/icons/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Icons8.svg"
   },
   {
@@ -133,7 +133,7 @@ let resources = [
     category: "Icons",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
-    url: "https://www.iconfinder.com/icon-sets/featured/free",
+    url: "https://www.iconfinder.com/icon-sets/featured/free/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Iconfinder.svg"
   },
   {
@@ -142,7 +142,7 @@ let resources = [
     category: "Fonts",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://fonts.google.com",
+    url: "https://fonts.google.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Googlefonts.svg"
   },
   {
@@ -151,7 +151,7 @@ let resources = [
     category: "Fonts",
     job_types: ["Graphic Designer", "Illustrator"],
     price: "Free",
-    url: "https://www.calligraphr.com/en/",
+    url: "https://www.calligraphr.com/en/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Calligraphr.svg"
   },
   {
@@ -160,7 +160,7 @@ let resources = [
     category: "Fonts",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://www.fontsquirrel.com",
+    url: "https://www.fontsquirrel.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Fontsquirrel.svg"
   },
   {
@@ -169,7 +169,7 @@ let resources = [
     category: "Fonts",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://www.fontspace.com",
+    url: "https://www.fontspace.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Fontspace.svg"
   },
   {
@@ -178,7 +178,7 @@ let resources = [
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://coolors.co/ea526f-e76b74-d7af70-937d64-585b56",
+    url: "https://coolors.co/ea526f-e76b74-d7af70-937d64-585b56/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Coolors.svg"
   },
   {
@@ -187,7 +187,7 @@ let resources = [
     category: "Colour",
     job_types: ["Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://colorhunt.co",
+    url: "https://colorhunt.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Colourhunt.svg"
   },
   {
@@ -196,7 +196,7 @@ let resources = [
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://webgradients.com",
+    url: "https://webgradients.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Webgradients.svg"
   },
   {
@@ -205,7 +205,7 @@ let resources = [
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "http://khroma.co/generator/",
+    url: "http://khroma.co/generator/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Khroma.svg"
   },
   {
@@ -214,7 +214,7 @@ let resources = [
     category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://www.awwwards.com",
+    url: "https://www.awwwards.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Awwwards.svg"
   },
   {
@@ -223,7 +223,7 @@ let resources = [
     category: "Inspiration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://www.behance.net",
+    url: "https://www.behance.net/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Behance.svg"
   },
   {
@@ -232,7 +232,7 @@ let resources = [
     category: "Inspiration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://dribbble.com",
+    url: "https://dribbble.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Dribbble.svg"
   },
   {
@@ -241,7 +241,7 @@ let resources = [
     category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://mobbin.design",
+    url: "https://mobbin.design/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Mobbin.svg"
   },
   {
@@ -250,17 +250,17 @@ let resources = [
     category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://www.uisources.com",
+    url: "https://www.uisources.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Uisources.svg"
   },
   {
-    title: "Sketch",
-    description: "The best website & UI design and prototyping software.",
+    title: "Notion",
+    description: "A minimal and beautiful notes and project organisation application.",
     category: "Applications",
-    job_types: ["Web Designer", "UX/UI Designer"],
-    price: "$99",
-    url: "https://www.sketch.com/",
-    icon_link: "images/resource_icons/8_Sketch.svg"
+    job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
+    price: "Free or $4/m",
+    url: "https://www.notion.so/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Notion.svg"
   },
   {
     title: "Dotgrid",
@@ -268,7 +268,7 @@ let resources = [
     category: "Applications",
     job_types: ["Graphic Designer", "Illustrator"],
     price: "Free",
-    url: "https://hundredrabbits.itch.io/dotgrid",
+    url: "https://hundredrabbits.itch.io/dotgrid/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/8_Dotgrid.svg"
   },
   {
@@ -277,8 +277,17 @@ let resources = [
     category: "Applications",
     job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://sparkmailapp.com/",
+    url: "https://sparkmailapp.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/8_Spark.svg"
+  },
+  {
+    title: "Numi",
+    description: "A beautiful simple and smart calculator app for Mac.",
+    category: "Applications",
+    job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://numi.app/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Numi.svg"
   },
   {
     title: "Paper Sizes",
@@ -286,7 +295,7 @@ let resources = [
     category: "Other",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
-    url: "https://papersizes.io",
+    url: "https://papersizes.io/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Papersizes.svg"
   },
   {
@@ -295,7 +304,7 @@ let resources = [
     category: "Other",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://sketchsheets.com",
+    url: "https://sketchsheets.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Sketchsheets.svg"
   },
   {
@@ -304,7 +313,7 @@ let resources = [
     category: "Other",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
-    url: "https://briefbox.me",
+    url: "https://briefbox.me/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Briefbox.svg"
   },
   {
@@ -313,7 +322,7 @@ let resources = [
     category: "Other",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
-    url: "https://smallpdf.com",
+    url: "https://smallpdf.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Smallpdf.svg"
   }
 ];
