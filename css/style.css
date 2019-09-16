@@ -53,11 +53,16 @@ hr {
 }
 
 /* Header text styling */
-.feedback {
+.menu {
+
+}
+.menu-item {
     color: #7B8794;
     font-weight: bold;
     margin-top: 10px;
     letter-spacing: 0.25px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .slogan {
@@ -140,11 +145,49 @@ hr {
   background-color: #F1F3F6;
 }
 
+.form-group {
+  color: #c7ccd0;
+}
+
+.button {
+  font-size: 14px;
+  color: #7B8794;
+  background-color: #ffffff;
+  font-weight: 700;
+  height: 38px;
+  min-width: 85px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  border: 2px solid rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.02);
+  transition: color .1s ease-in-out,background-color .1s ease-in-out,border-color .1s ease-in-out,box-shadow .1s ease-in-out;
+}
+
+.button:hover {
+  background-color: #F7F8F9;
+  color: #4E5A67;
+  border: 2px solid rgba(221, 229, 235, 1);
+}
+
 /* Styling for devices such as ipad */
-@media (max-width: 850px) {
-    .last-updated, .feedback {
+@media (max-width: 800px) {
+    .last-updated, .menu-item {
         display: none;
     }
+}
+
+/*TEXT STYLES*/
+h3 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+  color: #323E48;
+}
+
+h6 {
+  font-family: 'Muli', sans-serif;
+  color: #7B8794;
+  line-height: 22px;
 }
 
 /* RESOURCE WRAPPER */
