@@ -54,8 +54,11 @@
 <nav class="navbar">
   <!-- Top Header -->
   <div class="container-fluid header brand-header">
-    <a class="navbar-brand mb-0 h1" href="#"><img src="images/logo.svg" width="230" class="d-inline-block align-top" alt=""></a>
-    <a class="navbar-text feedback" href="index.html">Home</a>
+    <a class="navbar-brand mb-0 h1" href="index.html"><img src="images/logo.svg" width="230" class="d-inline-block align-top" alt=""></a>
+    <div class="menu">
+      <a class="navbar-text menu-item" href="index.html">Directory</a>
+      <a class="navbar-text menu-item" href="feedback.html" style="color:#323E48;">Feedback</a>
+    </div>
   </div>
 
   <!-- Bottom Header -->
@@ -69,9 +72,13 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-5 d-flex align-items-center">
-        <h1>Send us your love.</h1>
+        <img src="images/feedback.svg" style="width:420px">
       </div>
       <div class="col-md-6 offset-md-1">
+        <br><br>
+        <h3>Feedback</h3>
+        <h6>We are always happy to hear feedback <br>or a resource you would want to add.</h6>
+        <br>
         <form class="mt-4 mt-md-0" action="https://formspree.io/nikolaibain@icloud.com" method="POST">
           <div class="form-group">
             <input type="hidden" name="_next" value="https://www.thedesignindex.co"/>
@@ -88,9 +95,10 @@
           </div>
 
           <div class="form-group">
-            <input type="submit" value="Send">
+            <input type="submit" value="Send" class="button">
           </div>
         </form>
+        <br>
       </div>
     </div>
   </div>

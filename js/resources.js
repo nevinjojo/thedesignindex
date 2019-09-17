@@ -13,47 +13,47 @@ let category_colours = {
   "Fonts": "#E56FBB",
   "Colour": "#FF3423",
   "Inspiration": "#FF8300",
-  "UX & UI": "#FFBA01",
+  "Applications": "#FFBA01",
   "Other": "#42C241"
 };
 
 // List of Resource objects that will be displayed on the website.
 let resources = [
   {
-    title: "Kaboompics",
-    description: "Great place to get breathtaking free pictures for business or personal projects.",
-    category: "Photo & Video",
-    job_types: ["Graphic Designer"],
-    price: "Free",
-    url: "http://kaboompics.com/",
-    icon_link: "images/resource_icons/1_Kaboompics.svg"
-  },
-  {
-    title: "Pexels",
-    description: "Free high quality photos you can use anywhere that require no attribution.",
-    category: "Photo & Video",
-    job_types: ["Graphic Designer"],
-    price: "Free",
-    url: "http://pexels.com/",
-    icon_link: "images/resource_icons/1_Pexels.svg"
-  },
-  {
-    title: "Stocksnap",
-    description: "High quality and high resolution images free from all copyright restrictions.",
-    category: "Photo & Video",
-    job_types: ["Graphic Designer"],
-    price: "Free",
-    url: "https://stocksnap.io/",
-    icon_link: "images/resource_icons/1_Stocksnap.svg"
-  },
-  {
     title: "Unsplash",
-    description: "The internet's source of freely usable images. Powered by creators everywhere.",
+    description: "The largest and best source for free to use images.",
     category: "Photo & Video",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://unsplash.com/",
+    url: "https://unsplash.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Unsplash.svg"
+  },
+  {
+    title: "Stocksnap",
+    description: "High quality and high resolution images for free.",
+    category: "Photo & Video",
+    job_types: ["Graphic Designer"],
+    price: "Free",
+    url: "https://stocksnap.io/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/1_Stocksnap.svg"
+  },
+  {
+    title: "Pexels",
+    description: "Free high quality photos you can use anywhere with no attribution.",
+    category: "Photo & Video",
+    job_types: ["Graphic Designer"],
+    price: "Free",
+    url: "http://pexels.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/1_Pexels.svg"
+  },
+  {
+    title: "Coverr",
+    description: "Beautiful free videos to use in projects or websites.",
+    category: "Photo & Video",
+    job_types: ["Graphic Designer"],
+    price: "Free",
+    url: "https://coverr.co/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/1_Coverr.svg"
   },
   {
     title: "Graphic Burger",
@@ -61,25 +61,25 @@ let resources = [
     category: "Mockups",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://graphicburger.com/",
+    url: "https://graphicburger.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Graphicburger.svg"
   },
   {
     title: "Pixeden",
     description: "Premium design mockups for packaging, stationery, technology and more.",
-    category: "Graphic Designer",
+    category: "Mockups",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://www.pixeden.com/free-design-web-resources",
+    url: "https://www.pixeden.com/free-design-web-resources/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Pixaden.svg"
   },
   {
     title: "Pixel Buddha",
     description: "Free mock-ups and various other design resources such as UI kits & fonts.",
-    category: ["Graphic Designer", "Web Designer"],
+    category: "Mockups",
     job_types: ["Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://pixelbuddha.net/freebies",
+    url: "https://pixelbuddha.net/freebies/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Pixelbuddha.svg"
   },
   {
@@ -88,7 +88,7 @@ let resources = [
     category: "Illustration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://www.humaaans.com",
+    url: "https://www.humaaans.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/3_Humaaans.svg"
   },
   {
@@ -97,7 +97,7 @@ let resources = [
     category: "Illustration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://icons8.com/ouch",
+    url: "https://icons8.com/ouch/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/3_Ouch.svg"
   },
   {
@@ -106,7 +106,7 @@ let resources = [
     category: "Icons",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://thenounproject.com",
+    url: "https://thenounproject.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Thenounproject.svg"
   },
   {
@@ -114,8 +114,8 @@ let resources = [
     description: "Curated packs of icons that are great for keeping a consistent style throughout a project.",
     category: "Icons",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
-    price: "$3/m",
-    url: "https://www.flaticon.com",
+    price: "Free",
+    url: "https://www.flaticon.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Flaticon.svg"
   },
   {
@@ -124,7 +124,7 @@ let resources = [
     category: "Icons",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://icons8.com/icons",
+    url: "https://icons8.com/icons/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Icons8.svg"
   },
   {
@@ -133,25 +133,25 @@ let resources = [
     category: "Icons",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
-    url: "https://www.iconfinder.com/icon-sets/featured/free",
+    url: "https://www.iconfinder.com/icon-sets/featured/free/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Iconfinder.svg"
   },
   {
     title: "Google Fonts",
-    description: "The best website for implementing fonts into online projects, or quickly downloading great simple fonts.",
+    description: "The best website for implementing fonts into online projects.",
     category: "Fonts",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://fonts.google.com",
+    url: "https://fonts.google.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Googlefonts.svg"
   },
   {
     title: "Calligraphr",
-    description: "Easy way to transform your handwriting into its own font to share or use in projects.",
+    description: "Easy way to transform your handwriting into its own font.",
     category: "Fonts",
     job_types: ["Graphic Designer", "Illustrator"],
     price: "Free",
-    url: "https://www.calligraphr.com/en/",
+    url: "https://www.calligraphr.com/en/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Calligraphr.svg"
   },
   {
@@ -160,7 +160,7 @@ let resources = [
     category: "Fonts",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://www.fontsquirrel.com",
+    url: "https://www.fontsquirrel.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Fontsquirrel.svg"
   },
   {
@@ -169,16 +169,16 @@ let resources = [
     category: "Fonts",
     job_types: ["Graphic Designer"],
     price: "Free",
-    url: "https://www.fontspace.com",
+    url: "https://www.fontspace.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Fontspace.svg"
   },
   {
     title: "Coolors",
-    description: "Best colour palette generator website with public gallery to find or download great inspiration.",
+    description: "Best colour palette generator website with public gallery to find and download.",
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://coolors.co/ea526f-e76b74-d7af70-937d64-585b56",
+    url: "https://coolors.co/ea526f-e76b74-d7af70-937d64-585b56/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Coolors.svg"
   },
   {
@@ -187,17 +187,17 @@ let resources = [
     category: "Colour",
     job_types: ["Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://colorhunt.co",
+    url: "https://colorhunt.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Colourhunt.svg"
   },
   {
-    title: "Gradients.io",
-    description: "Short list of colourful and bold gradient for modern design projects.",
+    title: "WebGradients",
+    description: "A free collection of gradients great for digital projects.",
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "http://gradients.io",
-    icon_link: "images/resource_icons/6_Gradientsio.svg"
+    url: "https://webgradients.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/6_WebGradients.svg"
   },
   {
     title: "Khroma",
@@ -205,7 +205,7 @@ let resources = [
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "http://khroma.co/generator/",
+    url: "http://khroma.co/generator/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Khroma.svg"
   },
   {
@@ -214,7 +214,7 @@ let resources = [
     category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://www.awwwards.com",
+    url: "https://www.awwwards.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Awwwards.svg"
   },
   {
@@ -223,7 +223,7 @@ let resources = [
     category: "Inspiration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://www.behance.net",
+    url: "https://www.behance.net/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Behance.svg"
   },
   {
@@ -232,35 +232,62 @@ let resources = [
     category: "Inspiration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://dribbble.com",
+    url: "https://dribbble.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Dribbble.svg"
   },
   {
     title: "Mobbin",
     description: "Great collection of the latest iOS UI design patterns and screens.",
-    category: "UX & UI",
+    category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://mobbin.design",
-    icon_link: "images/resource_icons/8_Mobbin.svg"
-  },
-  {
-    title: "Sketchsheets",
-    description: "Ready to print sketch sheet templates for UX designers.",
-    category: "UX & UI",
-    job_types: ["Web Designer", "UX/UI Designer"],
-    price: "Free",
-    url: "https://sketchsheets.com",
-    icon_link: "images/resource_icons/8_Sketchsheets.svg"
+    url: "https://mobbin.design/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/7_Mobbin.svg"
   },
   {
     title: "UI Sources",
     description: "More creative and unusual UI modern design patterns and screens.",
-    category: "UX & UI",
+    category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://www.uisources.com",
-    icon_link: "images/resource_icons/8_Uisources.svg"
+    url: "https://www.uisources.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/7_Uisources.svg"
+  },
+  {
+    title: "Notion",
+    description: "A minimal and beautiful notes and project organisation application.",
+    category: "Applications",
+    job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
+    price: "Free or $4/m",
+    url: "https://www.notion.so/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Notion.svg"
+  },
+  {
+    title: "Dotgrid",
+    description: "A grid-based vector drawing software designed to create logos, icons and type.",
+    category: "Applications",
+    job_types: ["Graphic Designer", "Illustrator"],
+    price: "Free",
+    url: "https://hundredrabbits.itch.io/dotgrid/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Dotgrid.svg"
+  },
+  {
+    title: "Spark Mail",
+    description: "The best simple personal email client currently available.",
+    category: "Applications",
+    job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://sparkmailapp.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Spark.svg"
+  },
+  {
+    title: "Numi",
+    description: "A beautiful simple and smart calculator app for Mac.",
+    category: "Applications",
+    job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://numi.app/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Numi.svg"
   },
   {
     title: "Paper Sizes",
@@ -268,8 +295,17 @@ let resources = [
     category: "Other",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
-    url: "https://papersizes.io",
+    url: "https://papersizes.io/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Papersizes.svg"
+  },
+  {
+    title: "Sketchsheets",
+    description: "Ready to print sketch sheet templates for UX designers.",
+    category: "Other",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://sketchsheets.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/9_Sketchsheets.svg"
   },
   {
     title: "Briefbox",
@@ -277,7 +313,7 @@ let resources = [
     category: "Other",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
-    url: "https://briefbox.me",
+    url: "https://briefbox.me/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Briefbox.svg"
   },
   {
@@ -286,7 +322,7 @@ let resources = [
     category: "Other",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
-    url: "https://smallpdf.com",
+    url: "https://smallpdf.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Smallpdf.svg"
   }
 ];

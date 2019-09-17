@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="104px" viewBox="0 0 103 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>1_Coverr</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 61 0 61 62 0 62"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.0707768794" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.104731206" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-5" transform="translate(-660.000000, -1776.000000)">
+            <g id="1_Coverr" transform="translate(660.000000, 1776.000000)">
+                <rect id="Rectangle-Copy-9" fill="#44DBBD" x="0" y="0" width="103" height="104" rx="15"></rect>
+                <g id="Group-6" transform="translate(21.000000, 22.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M30.1670868,7.78193874 C17.9526741,7.82075822 8.66753851,17.795602 8.68206783,30.8625275 C8.69663127,43.7829132 18.3299708,54.1946114 30.17436,54.0913884 C42.9542632,53.978949 52.1566663,44.2971849 52.119504,31.0007725 C52.0821161,17.8462918 42.5305999,7.74334097 30.1670868,7.78193874 M60.9999778,30.8431731 C61.0199569,48.0178209 47.526372,62.0257347 30.5080176,61.9999645 C11.3868023,61.9704366 -0.153022114,46.7266118 0.00153316417,31.1491556 C0.174271416,13.6749768 13.1560056,-0.0794876031 30.34528,0.00034576322 C49.0646516,0.0873281335 60.7935789,14.5486857 60.9999778,30.8431731" id="Fill-1" fill="#0E9481" mask="url(#mask-2)"></path>
+                    <polygon id="Fill-4" fill="#0E9481" mask="url(#mask-2)" points="23 20 42 31.252944 23 43"></polygon>
+                </g>
+                <rect id="Rectangle-Copy-20" fill="url(#linearGradient-3)" opacity="0.504278274" x="0" y="1" width="103" height="103" rx="15"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
