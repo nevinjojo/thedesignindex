@@ -355,7 +355,7 @@ function createResources(resources) {
         '              </div>' +
         '              <div class="card-icon-container">' +
         '                <div class="card-icon" alt="' + resource.title + 'Logo">' +
-        '                  <img src="' + resource.icon_link + '" alt="' + resource.title + 'Logo"/>' +
+        '                  <img draggable="false" class="card-icon-img" src="' + resource.icon_link + '" alt="' + resource.title + 'Logo"/>' +
         '                </div>' +
         '              </div>' +
         '              <div class="card-text-container">' +
