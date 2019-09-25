@@ -245,13 +245,13 @@ let resources = [
     icon_link: "images/resource_icons/7_Mobbin.svg"
   },
   {
-    title: "UI Sources",
-    description: "More creative and unusual UI modern design patterns and screens.",
+    title: "Collect UI",
+    description: "Large UI inspiration collection categorised by type.",
     category: "Inspiration",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://www.uisources.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/7_Uisources.svg"
+    url: "http://collectui.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/7_Collectui.svg"
   },
   {
     title: "Notion",
@@ -290,6 +290,15 @@ let resources = [
     icon_link: "images/resource_icons/8_Numi.svg"
   },
   {
+    title: "Sketch",
+    description: "The best design program for UX/UI ideation and designing.",
+    category: "Applications",
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
+    price: "$99",
+    url: "https://numi.app/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Sketch.svg"
+  },
+  {
     title: "Paper Sizes",
     description: "The best resource for international paper sizes, dimensions & formats.",
     category: "Other",
@@ -308,13 +317,13 @@ let resources = [
     icon_link: "images/resource_icons/9_Sketchsheets.svg"
   },
   {
-    title: "Briefbox",
-    description: "Practice design briefs & skill development for when you feel stuck.",
+    title: "Sharpen",
+    description: "Practice design briefs & challenges for when you feel stuck.",
     category: "Other",
-    job_types: ["Graphic Designer", "Web Designer"],
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://briefbox.me/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/9_Briefbox.svg"
+    url: "https://sharpen.design/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/9_Sharpen.svg"
   },
   {
     title: "SmallPDF",

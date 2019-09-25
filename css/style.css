@@ -56,21 +56,20 @@ hr {
 .menu {
 
 }
+
 .menu-item {
     color: #7B8794;
     font-weight: bold;
-    margin-top: 10px;
     letter-spacing: 0.25px;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 12px;
 }
 
 .slogan {
     color: #7B8794;
     font-size: 16px;
     line-height: 25px;
-    margin-top: -10px;
-    margin-bottom: -6px;
+    margin-top: -8px;
+    margin-bottom: 0;
     letter-spacing: 0.25px;
 }
 
@@ -78,6 +77,7 @@ hr {
     font-size: 12px;
     color: #c7ccd0;
     letter-spacing: 0.25px;
+    margin-top: -8px;
 }
 
 .filter {
@@ -145,8 +145,27 @@ hr {
   background-color: #F1F3F6;
 }
 
-.form-group {
-  color: #c7ccd0;
+.form-control {
+  color: #000000;
+}
+
+/* unvisited link */
+.form-control input {
+  margin: 0 .25rem;
+  min-width: 125px;
+  border: 1px solid #eee;
+  border-left: 3px solid;
+  border-radius: 5px;
+  transition: border-color .5s ease-out;
+}
+.form-control input:optional {
+  border-left-color: #999;
+}
+.form-control input:required {
+  border-left-color: palegreen;
+}
+.form-control input:invalid {
+  border-left-color: salmon;
 }
 
 .button {
@@ -171,7 +190,7 @@ hr {
 }
 
 /* Styling for devices such as ipad */
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .last-updated, .menu-item {
         display: none;
     }
@@ -192,9 +211,9 @@ h6 {
 
 /* RESOURCE WRAPPER */
 .box {
-    margin-top: 28px;
-    margin-left: 58px;
-    margin-right: 58px;
+    margin-top: 24px;
+    margin-left: 64px;
+    margin-right: 64px;
     margin-bottom: 60px;
     min-height: calc(100vh - 337px);
 }
@@ -421,8 +440,6 @@ h6 {
     }
 
     .filter-header {
-        margin-top: -5px;
-        padding-bottom: 10px;
         width: 100%;
     }
 
