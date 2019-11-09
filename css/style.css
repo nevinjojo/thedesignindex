@@ -61,7 +61,8 @@ hr {
     color: #7B8794;
     font-weight: bold;
     letter-spacing: 0.25px;
-    margin-left: 12px;
+    margin-left: 14px;
+    font-size: 14px;
 }
 
 .slogan {
@@ -190,7 +191,7 @@ hr {
 }
 
 /* Styling for devices such as ipad */
-@media (max-width: 500px) {
+@media (max-width: 100px) {
     .last-updated, .menu-item {
         display: none;
     }
@@ -376,6 +377,7 @@ img {
 
 .copyright {
     color: #7B8794;
+    margin-top: 7px;
     letter-spacing: 0.25px;
 }
 
