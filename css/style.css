@@ -1,5 +1,5 @@
 body {
-    font: 14px 'Muli', sans-serif;
+    font: 14px 'Public Sans', sans-serif;
     background-color: #EDF1F5;
 }
 
@@ -199,13 +199,13 @@ hr {
 
 /*TEXT STYLES*/
 h3 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Public Sans', sans-serif;
   font-weight: 700;
   color: #323E48;
 }
 
 h6 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Public Sans', sans-serif;
   color: #7B8794;
   line-height: 22px;
 }
@@ -285,7 +285,7 @@ img {
 }
 
 .card-text {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Public Sans', sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
@@ -361,7 +361,7 @@ img {
 }
 
 .none {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Public Sans', sans-serif;
     font-weight: 600;
     font-size: 25px;
     line-height: 18px;
