@@ -54,7 +54,11 @@ hr {
 
 /* Header text styling */
 .menu {
+    display: none;
+}
 
+.header .menu {
+    display: block;
 }
 
 .menu-item {
@@ -449,6 +453,14 @@ img {
     .header {
         margin-left: -5px;
         margin-right: -5px;
+    }
+
+    .header .menu {
+        display: none;
+    }
+
+    .menu {
+        display: block;
     }
 
     .dropdown {
