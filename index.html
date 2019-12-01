@@ -29,6 +29,7 @@
     <!-- Custom Fonts, Stylesheets and Javascript -->
     <link rel='stylesheet' href='css/style.css'/>
     <script src="js/resources.js"></script>
+    <script src="js/filters.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
@@ -73,6 +74,12 @@
 
     <!-- Filter Header -->
     <div class="header filter-header">
+      <div class="filter-menu" onclick="showFilters()">
+        <button class="btn dropdown-toggle filter" type="button" id="dropdownMenu3" data-toggle="dropdown" onclick="showFilters()">
+          Filters
+        </button>
+      </div>
+      <div id="dropdowns">
       <div class="dropdown">
         <button class="btn dropdown-toggle filter category-dropdown" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           All Categories
@@ -113,6 +120,7 @@
         </div>
       </div>
     </div>
+    </div>
   </nav>
 
   <!-- Resource Wrapper -->
@@ -135,6 +143,8 @@
   </div>
 
 <!-- Optional JavaScript -->
+
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
