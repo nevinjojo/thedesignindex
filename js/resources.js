@@ -333,6 +333,15 @@ let resources = [
     price: "Free",
     url: "https://smallpdf.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Smallpdf.svg"
+  },
+  {
+    title: "FocusFox",
+    description: "An online markdown text editor with background sounds to help you focus.",
+    category: "Other",
+    job_types: ["Graphic Designer", "Web Designer"],
+    price: "Free",
+    url: "https://focusfox.co/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/9_focusfox.svg"
   }
 ];
 

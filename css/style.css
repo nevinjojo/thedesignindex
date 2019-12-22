@@ -158,13 +158,14 @@ hr {
 
 .form-control {
   color: #000000;
+  border: 1px solid #E4E7EA;
 }
 
 /* unvisited link */
 .form-control input {
   margin: 0 .25rem;
   min-width: 125px;
-  border: 1px solid #eee;
+  border: 1px solid #DBE1E7;
   border-left: 3px solid;
   border-radius: 5px;
   transition: border-color .5s ease-out;
