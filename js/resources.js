@@ -376,7 +376,6 @@ function resetResources() {
 // Load resources based on filter parameters specified by the user.
 function loadResources() {
   resetResources();
-  document.getElementsByClassName("category-dropdown")[0].innerHTML = selected_category;
   document.getElementsByClassName("jobType-dropdown")[0].innerHTML = selected_job_type;
   document.getElementsByClassName("price-dropdown")[0].innerHTML = selected_price;
   let selected_resources = [];

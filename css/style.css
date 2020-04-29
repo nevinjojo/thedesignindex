@@ -33,7 +33,7 @@ a:hover {
 }
 
 .dropdown {
-    display: inline;
+    display: block;
     margin-right: 8px;
     margin-bottom: 8px;
 }
