@@ -56,7 +56,7 @@
         <span class="sr-only">Menu</span>
       </button>
     </div>
-    <a class="navbar-brand mb-0 h1" href="index.html"><img src="images/logo.svg" width="230" class="d-inline-block align-top" alt=""></a>
+    <a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="230" alt=""></a>
     <div id="dropdowns">
       <div class="dropdown">
         <button class="btn dropdown-toggle filter jobType-dropdown" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -80,31 +80,29 @@
           <a class="dropdown-item" onclick='setPrice("Paid")'>Paid</a>
         </div>
       </div>
-      <a class="dropdown-item" onclick='setCategory("All Categories")'>All Categories</a>
-      <a class="dropdown-item" onclick='setCategory("Photo & Video")'>Photo & Video</a>
-      <a class="dropdown-item" onclick='setCategory("Mockups")'>Mockups</a>
-      <a class="dropdown-item" onclick='setCategory("Illustration")'>Illustration</a>
-      <a class="dropdown-item" onclick='setCategory("Icons")'>Icons</a>
-      <a class="dropdown-item" onclick='setCategory("Fonts")'>Fonts</a>
-      <a class="dropdown-item" onclick='setCategory("Colour")'>Colour</a>
-      <a class="dropdown-item" onclick='setCategory("Inspiration")'>Inspiration</a>
-      <a class="dropdown-item" onclick='setCategory("Applications")'>Applications</a>
-      <a class="dropdown-item" onclick='setCategory("Other")'>Other</a>
+      <a class="category-item" onclick='setCategory("All Categories")'><img src="images/logo2.svg" class="category-icon">All Categories</a>
+      <a class="category-item" onclick='setCategory("Photo & Video")'><img src="images/logo2.svg" class="category-icon">Photo & Video</a>
+      <a class="category-item" onclick='setCategory("Mockups")'><img src="images/logo2.svg" class="category-icon">Mockups</a>
+      <a class="category-item" onclick='setCategory("Illustration")'><img src="images/logo2.svg" class="category-icon">Illustration</a>
+      <a class="category-item" onclick='setCategory("Icons")'><img src="images/logo2.svg" class="category-icon">Icons</a>
+      <a class="category-item" onclick='setCategory("Fonts")'><img src="images/logo2.svg" class="category-icon">Fonts</a>
+      <a class="category-item" onclick='setCategory("Colour")'><img src="images/logo2.svg" class="category-icon">Colour</a>
+      <a class="category-item" onclick='setCategory("Inspiration")'><img src="images/logo2.svg" class="category-icon">Inspiration</a>
+      <a class="category-item" onclick='setCategory("Applications")'><img src="images/logo2.svg" class="category-icon">Applications</a>
+      <a class="category-item" onclick='setCategory("Other")'><img src="images/logo2.svg" class="category-icon">Other</a>
     </div>
 
-    <div class="footer">
+    <div id="footer">
       <span class="navbar-text last-updated">Last updated Dec 2019</span>
-      <a class="navbar-brand mb-0 h1" href="#"><img src="images/logo2.svg" width="30" height="30" class="d-inline-block align-top" alt="logo"/></a>
-      <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script>All rights reserved</a>
-      <p class="copyright">Made with love by <a class="navbar-text copyright" href="https://www.nikolaibain.com" style="color:#323E48;"><b>Nikolai Bain</b></a> & <a class="navbar-text copyright" href="http://www.nevinjojo.com" style="color:#323E48;"><b>Nevin Jojo</b></a>
+      <p class="copyright">Made with love by <br><a class="navbar-text" href="https://www.nikolaibain.com" style="color:#323E48;"><b>Nikolai Bain</b></a> & <a class="navbar-text" href="http://www.nevinjojo.com" style="color:#323E48;"><b>Nevin Jojo</b></a>
     </div>
   </nav>
 
   <!-- Top Header -->
   <div class="container-fluid header brand-header slogan-header">
-    <h6 class="navbar-text slogan">A hand-picked directory of the best design resources and tools</h6>
-    <div class="feedback-btn">
-      <a class="navbar-text menu-item" href="feedback.html">Feedback</a>
+    <h2 class="navbar-text slogan">A hand-picked directory of the best design resources and tools for creatives.</h2>
+    <div class="">
+      <button class="feedback-btn">Submit a Resource</button>
     </div>
   </div>
 
