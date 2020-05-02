@@ -1,12 +1,12 @@
 // filters chosen by the user
-let selected_category = "All Categories";
+let selected_category = "All-Categories";
 let selected_job_type = "All Jobs";
 let selected_price = "All Prices";
 
 // Colours that represents the categories
 let category_colours = {
-  "All Categories": "#000000",
-  "Photo & Video": "#1BC7A4",
+  "All-Categories": "#000000",
+  "Photo-&-Video": "#1BC7A4",
   "Mockups": "#01B0D6",
   "Illustration": "#3684EF",
   "Icons": "#8F55E2",
@@ -22,7 +22,7 @@ let resources = [
   {
     title: "Unsplash",
     description: "The largest and best source for free to use images.",
-    category: "Photo & Video",
+    category: "Photo-&-Video",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://unsplash.com/?ref=thedesignindex.co",
@@ -31,7 +31,7 @@ let resources = [
   {
     title: "Stocksnap",
     description: "High quality and high resolution images for free.",
-    category: "Photo & Video",
+    category: "Photo-&-Video",
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://stocksnap.io/?ref=thedesignindex.co",
@@ -40,7 +40,7 @@ let resources = [
   {
     title: "Pexels",
     description: "Free high quality photos you can use anywhere with no attribution.",
-    category: "Photo & Video",
+    category: "Photo-&-Video",
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "http://pexels.com/?ref=thedesignindex.co",
@@ -49,7 +49,7 @@ let resources = [
   {
     title: "Coverr",
     description: "Beautiful free videos to use in projects or websites.",
-    category: "Photo & Video",
+    category: "Photo-&-Video",
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://coverr.co/?ref=thedesignindex.co",
@@ -365,7 +365,7 @@ function setPrice(price) {
 
 // Removes children of `resourceRow` to load filtered resource list.
 function resetResources() {
-  let resourceDiv = document.getElementById('resourceRow');
+  let resourceDiv = document.getElementById('categorySection');
   let child = resourceDiv.lastElementChild;
   while (child) {
     resourceDiv.removeChild(child);
@@ -375,12 +375,12 @@ function resetResources() {
 
 // Load resources based on filter parameters specified by the user.
 function loadResources() {
-  resetResources();
+  // resetResources();
   document.getElementsByClassName("jobType-dropdown")[0].innerHTML = selected_job_type;
   document.getElementsByClassName("price-dropdown")[0].innerHTML = selected_price;
   let selected_resources = [];
   for (let resource of resources) {
-    if (resource.category === selected_category || selected_category === "All Categories") {
+    if (resource.category === selected_category || selected_category === "All-Categories") {
       if (resource.job_types.includes(selected_job_type) || selected_job_type === "All Jobs") {
         if (resource.price === selected_price || selected_price === "All Prices" || (selected_price === "Paid" && resource.price.includes("$"))) {
           selected_resources.push(resource)
@@ -393,11 +393,11 @@ function loadResources() {
 
 // Append resource children to `resourceRow` div iteratively.
 function createResources(resources) {
-  if (resources.length === 0) {
-    let resourceString = '<div class="none"><img src="images/logo2.svg" style="width:100px;"><br><br><br>No resources found!</div>';
-    let div = document.getElementById('resourceRow');
-    div.insertAdjacentHTML('beforeend', resourceString);
-  } else {
+  // if (resources.length === 0) {
+  //   let resourceString = '<div class="none"><img src="images/logo2.svg" style="width:100px;"><br><br><br>No resources found!</div>';
+  //   let div = document.getElementById('hs-photo');
+  //   div.insertAdjacentHTML('beforeend', resourceString);
+  // } else {
     for (let resource of resources) {
       let resourceString = '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 resource-card">' +
         '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
@@ -422,8 +422,8 @@ function createResources(resources) {
         '        </a>' +
         '      </div>'
       ;
-      let div = document.getElementById('resourceRow');
+      let div = document.getElementById(resource.category);
       div.insertAdjacentHTML('beforeend', resourceString);
     }
-  }
+  // }
 }
