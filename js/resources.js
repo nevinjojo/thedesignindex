@@ -399,7 +399,7 @@ function createResources(resources) {
   //   div.insertAdjacentHTML('beforeend', resourceString);
   // } else {
     for (let resource of resources) {
-      let resourceString = '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 resource-card">' +
+      let resourceString = '<div class="resource-card">' +
         '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
         '          <div class="resource-card-wrapper">' +
         '            <div class="card-content">' +

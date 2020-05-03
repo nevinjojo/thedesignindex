@@ -28,7 +28,7 @@ a:hover {
 }
 
 .navbar-brand {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .slogan-header {
@@ -100,6 +100,7 @@ hr {
   line-height: 38px;
   letter-spacing: 0.25px;
   max-width: 650px;
+  margin-left: 24px;
 }
 
 .last-updated {
@@ -259,10 +260,15 @@ hr {
 }
 
 /*TEXT STYLES*/
+
+
 h3 {
   font-family: 'Public Sans', sans-serif;
   font-weight: 700;
   color: #323E48;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 24px;
 }
 
 h6 {
@@ -273,7 +279,6 @@ h6 {
 
 /* RESOURCE WRAPPER */
 .box {
-  margin: 24px 64px 60px;
   min-height: calc(100vh - 337px);
 }
 
@@ -285,10 +290,13 @@ h6 {
 .resource-card-wrapper {
   background-color: #ffffff;
   margin-top: 30px;
+  margin-right: 20px;
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.01);
   border: 2px solid rgba(0, 0, 0, 0.01);
   transition: all 0.15s ease;
+  height: 150px;
+  width: 350px;
 }
 
 .resource-card-wrapper:hover .card-open {
@@ -541,13 +549,6 @@ img {
     margin-right: 0px;
   }
 
-  .box {
-    margin-top: 8px;
-    margin-left: 28px;
-    margin-right: 28px;
-    margin-bottom: 60px;
-  }
-
   .card-category {
     font-size: 11px;
   }
@@ -559,16 +560,11 @@ img {
     margin-right: 0px;
   }
 
-  .box {
-    margin-top: 6px;
-    margin-left: 28px;
-    margin-right: 28px;
-    margin-bottom: 60px;
-  }
-
   .resource-card-wrapper {
     margin-top: 20px;
     border-radius: 15px;
+    height: 115px;
+    width: 350px;
   }
 
   .card-icon {
@@ -678,6 +674,8 @@ img {
   .resource-card-wrapper {
     margin-top: 20px;
     border-radius: 15px;
+    height: 115px;
+  width: 350px;
   }
 
   .card-icon {
@@ -749,6 +747,8 @@ img {
   .content {
     display: inline-block;
     margin-left: var(--sidebar-width);
+    overflow-x: none;
+    width: calc(100% - var(--sidebar-width));
   }
 }
 
@@ -792,7 +792,11 @@ button:hover, button:focus {
 .categorySection {
   display: flex;
   overflow-x: scroll;
-  width: 82vw;
+  padding-left: 50px;
+}
+
+.catgory-row {
+   padding-left: ;
 }
 
 .resource-card {
@@ -802,4 +806,40 @@ button:hover, button:focus {
 .resource-card-wrapper {
   margin-top: 5px;
   margin-bottom: 30px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track:horizontal {
+  box-shadow: inset 0 0 20px var(--scroll-track);
+  border-radius: 10px;
+  background: #E8ECF2;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: #C6CBD7;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: #B2BBCB;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 20px var(--scroll-track);
+  border-radius: 10px;
+  background: #E8ECF2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C6CBD7;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B2BBCB;
 }
