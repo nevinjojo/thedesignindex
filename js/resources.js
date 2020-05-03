@@ -365,17 +365,22 @@ function setPrice(price) {
 
 // Removes children of `resourceRow` to load filtered resource list.
 function resetResources() {
-  let resourceDiv = document.getElementById('categorySection');
-  let child = resourceDiv.lastElementChild;
-  while (child) {
-    resourceDiv.removeChild(child);
-    child = resourceDiv.lastElementChild;
-  }
+  Object.keys(category_colours).forEach(function(category) {
+    if (category !== "All-Categories") {
+      let resourceDiv = document.getElementById(category);
+      resourceDiv.parentElement.style.display = "block";
+      let child = resourceDiv.lastElementChild;
+      while (child) {
+        resourceDiv.removeChild(child);
+        child = resourceDiv.lastElementChild;
+      }
+    }
+  });
 }
 
 // Load resources based on filter parameters specified by the user.
 function loadResources() {
-  // resetResources();
+  resetResources();
   document.getElementsByClassName("jobType-dropdown")[0].innerHTML = selected_job_type;
   document.getElementsByClassName("price-dropdown")[0].innerHTML = selected_price;
   let selected_resources = [];
@@ -393,11 +398,11 @@ function loadResources() {
 
 // Append resource children to `resourceRow` div iteratively.
 function createResources(resources) {
-  // if (resources.length === 0) {
-  //   let resourceString = '<div class="none"><img src="images/logo2.svg" style="width:100px;"><br><br><br>No resources found!</div>';
-  //   let div = document.getElementById('hs-photo');
-  //   div.insertAdjacentHTML('beforeend', resourceString);
-  // } else {
+  if (resources.length === 0) {
+    let resourceString = '<div class="none"><img src="images/logo2.svg" style="width:100px;"><br><br><br>No resources found!</div>';
+    let div = document.getElementsByClassName('box')[0];
+    div.insertAdjacentHTML('beforeend', resourceString);
+  } else {
     for (let resource of resources) {
       let resourceString = '<div class="resource-card">' +
         '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
@@ -407,7 +412,7 @@ function createResources(resources) {
         '                <img src="images/open.svg">' +
         '              </div>' +
         '              <div class="card-icon-container">' +
-        '                <div class="card-icon" alt="' + resource.title + 'Logo">' +
+        '                <div class="card-icon">' +
         '                  <img draggable="false" class="card-icon-img" src="' + resource.icon_link + '" alt="' + resource.title + 'Logo"/>' +
         '                </div>' +
         '              </div>' +
@@ -425,5 +430,14 @@ function createResources(resources) {
       let div = document.getElementById(resource.category);
       div.insertAdjacentHTML('beforeend', resourceString);
     }
-  // }
+  }
+
+  Object.keys(category_colours).forEach(function(category) {
+    if (category !== "All-Categories") {
+      let resourceDiv = document.getElementById(category);
+      if (!resourceDiv.hasChildNodes()) {
+        resourceDiv.parentElement.style.display = "none";
+      }
+    }
+  });
 }
