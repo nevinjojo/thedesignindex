@@ -14,4 +14,13 @@
     $('#sidebar').toggleClass('active');
   });
 
+  $(window).resize(sidebarCollapse);
+
+  function sidebarCollapse(){
+    if ($(window).width() < 992 && $('#sidebar').hasClass('active')) {
+      $('#sidebar').toggleClass('active');
+    }
+  }
+
+
 })(jQuery);
