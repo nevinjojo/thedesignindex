@@ -3,20 +3,15 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 31.5 28" style="enable-background:new 0 0 31.5 28;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:none;stroke:#323F4A;stroke-width:4;}
+	.st0{fill:none;stroke:#738591;stroke-width:4.4;stroke-linecap:round;stroke-linejoin:round;}
 </style>
-<g>
-	<polygon id="path-1" class="st0" points="0.5,3 28.5,3 28.5,4 0.5,4 	"/>
-</g>
 <title>Group 5</title>
 <desc>Created with Sketch.</desc>
-<g id="Group-2" transform="translate(0.000000, 9.000000)">
-	<g id="Clip-2">
-	</g>
-	<path id="Stroke-1" class="st1" d="M28.5-6.5h-28"/>
-	<path id="Stroke-4" class="st1" d="M28.5,2.5h-10"/>
-	<path id="Stroke-6" class="st1" d="M28.5,11.5h-10"/>
-	<path id="Stroke-8" class="st1" d="M12.5,7c0-2.8-2.2-5-5-5c-2.8,0-5,2.2-5,5s2.2,5,5,5C10.3,12,12.5,9.8,12.5,7z"/>
-</g>
+<path id="Stroke-1" class="st0" d="M26.8,5.3H4.7"/>
+<title>Group 5</title>
+<desc>Created with Sketch.</desc>
+<path id="Stroke-1_1_" class="st0" d="M26.8,14H4.7"/>
+<title>Group 5</title>
+<desc>Created with Sketch.</desc>
+<path id="Stroke-1_2_" class="st0" d="M26.8,22.7H4.7"/>
 </svg>
