@@ -368,11 +368,13 @@ function resetResources() {
   Object.keys(category_colours).forEach(function(category) {
     if (category !== "All-Categories") {
       let resourceDiv = document.getElementById(category);
-      resourceDiv.parentElement.style.display = "block";
-      let child = resourceDiv.lastElementChild;
+      resourceDiv.style.display = "block";
+      document.querySelectorAll("a[href='#" + category + "']")[0].style.display = "block";
+      let section = resourceDiv.lastElementChild;
+      let child = section.lastElementChild;
       while (child) {
-        resourceDiv.removeChild(child);
-        child = resourceDiv.lastElementChild;
+        section.removeChild(child);
+        child = section.lastElementChild;
       }
     }
   });
@@ -428,15 +430,18 @@ function createResources(resources) {
         '      </div>'
       ;
       let div = document.getElementById(resource.category);
-      div.insertAdjacentHTML('beforeend', resourceString);
+      let section = div.getElementsByClassName('categorySection')[0];
+      section.insertAdjacentHTML('beforeend', resourceString);
     }
   }
 
   Object.keys(category_colours).forEach(function(category) {
     if (category !== "All-Categories") {
       let resourceDiv = document.getElementById(category);
-      if (!resourceDiv.hasChildNodes()) {
-        resourceDiv.parentElement.style.display = "none";
+      let section = resourceDiv.getElementsByClassName('categorySection')[0];
+      if (!section.hasChildNodes()) {
+        resourceDiv.style.display = "none";
+        document.querySelectorAll("a[href='#" + category + "']")[0].style.display = "none";
       }
     }
   });
