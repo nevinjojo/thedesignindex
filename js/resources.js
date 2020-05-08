@@ -5,16 +5,7 @@ let selected_price = "All Prices";
 
 // Colours that represents the categories
 let category_colours = {
-  "All-Categories": "#000000",
-  "Photo-&-Video": "#1BC7A4",
-  "Mockups": "#01B0D6",
-  "Illustration": "#3684EF",
-  "Icons": "#8F55E2",
-  "Fonts": "#E56FBB",
-  "Colour": "#FF3423",
-  "Inspiration": "#FF8300",
-  "Applications": "#FFBA01",
-  "Other": "#42C241"
+
 };
 
 // List of Resource objects that will be displayed on the website.
@@ -419,8 +410,7 @@ function createResources(resources) {
         '                </div>' +
         '              </div>' +
         '              <div class="card-text-container">' +
-        '                <div class="card-text card-category"' +
-        '                     style="color: ' + category_colours[resource.category] + '">' + resource.category + '<span class="divider">\xa0\xa0|\xa0\xa0</span>' + resource.price  +'</div>' +
+        '                <div class="card-text card-category"' + '">' + resource.price  +'</div>' +
         '                <div class="card-text card-title">' + resource.title + '</div>' +
         '                <div class="card-text card-description">' + resource.description + '</div>' +
         '              </div>' +
