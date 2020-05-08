@@ -672,11 +672,10 @@ img {
     margin-right: 8px;
     margin-bottom: 1px;
   }
-  
+
   .dropdown-menu {
     margin-top: 0;
   }
-  
 
   .filter-menu {
     display: block;
@@ -734,9 +733,7 @@ img {
     margin-left: 25px;
     font-size: 24px;
   }
-  
 
-  
   #dropdownMenu3 {
     margin-top: 10px;
   }
@@ -814,4 +811,28 @@ button:hover, button:focus {
     -o-transition: none;
     transition: none;
   }
+}
+
+/* Modal Styling */
+.modal-dialog {
+  margin-top: 18vh;
+}
+
+.modal-body {
+
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-content {
+  height: 25vw;
+  width: 25vw;
+  border-radius: .7rem;
+  border: none;
+}
+
+.modal-footer {
+  border-top: none;
 }

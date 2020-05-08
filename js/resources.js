@@ -4,9 +4,18 @@ let selected_job_type = "All Jobs";
 let selected_price = "All Prices";
 
 // Colours that represents the categories
-let category_colours = {
-
-};
+let categories = [
+  "All-Categories",
+  "Photo-&-Video",
+  "Mockups",
+  "Illustration",
+  "Icons",
+  "Fonts",
+  "Colour",
+  "Inspiration",
+  "Applications",
+  "Other"
+];
 
 // List of Resource objects that will be displayed on the website.
 let resources = [
@@ -356,7 +365,7 @@ function setPrice(price) {
 
 // Removes children of `resourceRow` to load filtered resource list.
 function resetResources() {
-  Object.keys(category_colours).forEach(function(category) {
+  categories.forEach(function (category) {
     if (category !== "All-Categories") {
       let resourceDiv = document.getElementById(category);
       resourceDiv.style.display = "block";
@@ -397,8 +406,8 @@ function createResources(resources) {
     div.insertAdjacentHTML('beforeend', resourceString);
   } else {
     for (let resource of resources) {
-      let resourceString = '<div class="resource-card">' +
-        '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
+      let resourceString = '<div class="resource-card" data-toggle="modal" data-target="#modal">' +
+        '        <a rel="noopener" target="_blank">' +
         '          <div class="resource-card-wrapper">' +
         '            <div class="card-content">' +
         '              <div class="card-open">' +
@@ -410,7 +419,7 @@ function createResources(resources) {
         '                </div>' +
         '              </div>' +
         '              <div class="card-text-container">' +
-        '                <div class="card-text card-category"' + '">' + resource.price  +'</div>' +
+        '                <div class="card-text card-category"' + '">' + resource.price + '</div>' +
         '                <div class="card-text card-title">' + resource.title + '</div>' +
         '                <div class="card-text card-description">' + resource.description + '</div>' +
         '              </div>' +
@@ -425,7 +434,7 @@ function createResources(resources) {
     }
   }
 
-  Object.keys(category_colours).forEach(function(category) {
+  categories.forEach(function (category) {
     if (category !== "All-Categories") {
       let resourceDiv = document.getElementById(category);
       let section = resourceDiv.getElementsByClassName('categorySection')[0];
