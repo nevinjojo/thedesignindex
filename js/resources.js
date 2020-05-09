@@ -408,7 +408,7 @@ function createResources(resources) {
     for (let resource of resources) {
       let resourceString = '<div class="resource-card" data-toggle="modal" data-target="#modal">' +
         '        <a rel="noopener" target="_blank">' +
-        '          <div class="resource-card-wrapper">' +
+        '          <div class="resource-card-wrapper" onclick="updateModal(\'' + resource.title + '\')">' +
         '            <div class="card-content">' +
         '              <div class="card-open">' +
         '                <img src="images/open.svg">' +
@@ -444,4 +444,25 @@ function createResources(resources) {
       }
     }
   });
+}
+
+//Reset contents of the modal
+function resetModal() {
+  let header = document.getElementById('modal-header');
+  let body = document.getElementById('modal-body');
+  let footer = document.getElementById('modal-footer');
+}
+
+// Update resource content of modal before displaying
+function updateModal(resourceTitle) {
+  resetModal();
+  let resource;
+  for (let res of resources) {
+    if (res.title === resourceTitle) {
+      resource = res;
+      document.getElementsByClassName('modal-title')[0].innerHTML = resource.title;
+      document.getElementById('modal-body').lastElementChild.innerHTML = resource.description;
+      document.getElementById('modal-footer').lastElementChild.innerHTML = resource.price;
+    }
+  }
 }
