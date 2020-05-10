@@ -406,9 +406,9 @@ function createResources(resources) {
     div.insertAdjacentHTML('beforeend', resourceString);
   } else {
     for (let resource of resources) {
-      let resourceString = '<div class="resource-card" data-toggle="modal" data-target="#modal">' +
-        '        <a rel="noopener" target="_blank">' +
-        '          <div class="resource-card-wrapper" onclick="updateModal(\'' + resource.title + '\')">' +
+      let resourceString = '<div class="resource-card">' +
+        '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
+        '          <div class="resource-card-wrapper">' +
         '            <div class="card-content">' +
         '              <div class="card-open">' +
         '                <img src="images/open.svg">' +
@@ -465,4 +465,36 @@ function updateModal(resourceTitle) {
       document.getElementById('modal-footer').lastElementChild.innerHTML = resource.price;
     }
   }
+}
+
+// Suggest Resource Modal
+function suggestResourceModal() {
+  let formDivString = '<div class="col-md-6 offset-md-1">\n' +
+    '        <br><br>\n' +
+    '        <h3>Feedback</h3>\n' +
+    '        <h6>We are always happy to hear feedback <br>or a resource you would want to add.</h6>\n' +
+    '        <br>\n' +
+    '        <form class="mt-4 mt-md-0" action="https://formspree.io/nikolaibain@icloud.com" method="POST">\n' +
+    '          <div class="form-group">\n' +
+    '            <input type="hidden" name="_next" value="https://www.thedesignindex.co"/>\n' +
+    '            <input type="hidden" name="_subject" value="Feedback: The Design Index"/>\n' +
+    '            <input class="form-control" type="text" placeholder="Name" name="name"/>\n' +
+    '          </div>\n' +
+    '\n' +
+    '          <div class="form-group">\n' +
+    '            <input class="form-control" type="email" placeholder="Email" name="_replyto"/>\n' +
+    '          </div>\n' +
+    '\n' +
+    '          <div class="form-group">\n' +
+    '            <textarea class="form-control" id="exampleFormControlTextarea3" rows="7" placeholder="Message" name="message"></textarea>\n' +
+    '          </div>\n' +
+    '\n' +
+    '          <div class="form-group">\n' +
+    '            <input type="submit" value="Send" class="button">\n' +
+    '          </div>\n' +
+    '        </form>\n' +
+    '        <br>\n' +
+    '      </div>';
+  let div = document.getElementById('modal-body');
+  div.insertAdjacentHTML('beforeend', formDivString);
 }
