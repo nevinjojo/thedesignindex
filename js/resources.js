@@ -466,35 +466,3 @@ function updateModal(resourceTitle) {
     }
   }
 }
-
-// Suggest Resource Modal
-function suggestResourceModal() {
-  let formDivString = '<div class="col-md-6 offset-md-1">\n' +
-    '        <br><br>\n' +
-    '        <h3>Feedback</h3>\n' +
-    '        <h6>We are always happy to hear feedback <br>or a resource you would want to add.</h6>\n' +
-    '        <br>\n' +
-    '        <form class="mt-4 mt-md-0" action="https://formspree.io/nikolaibain@icloud.com" method="POST">\n' +
-    '          <div class="form-group">\n' +
-    '            <input type="hidden" name="_next" value="https://www.thedesignindex.co"/>\n' +
-    '            <input type="hidden" name="_subject" value="Feedback: The Design Index"/>\n' +
-    '            <input class="form-control" type="text" placeholder="Name" name="name"/>\n' +
-    '          </div>\n' +
-    '\n' +
-    '          <div class="form-group">\n' +
-    '            <input class="form-control" type="email" placeholder="Email" name="_replyto"/>\n' +
-    '          </div>\n' +
-    '\n' +
-    '          <div class="form-group">\n' +
-    '            <textarea class="form-control" id="exampleFormControlTextarea3" rows="7" placeholder="Message" name="message"></textarea>\n' +
-    '          </div>\n' +
-    '\n' +
-    '          <div class="form-group">\n' +
-    '            <input type="submit" value="Send" class="button">\n' +
-    '          </div>\n' +
-    '        </form>\n' +
-    '        <br>\n' +
-    '      </div>';
-  let div = document.getElementById('modal-body');
-  div.insertAdjacentHTML('beforeend', formDivString);
-}
