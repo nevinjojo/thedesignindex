@@ -109,7 +109,7 @@
     <div class="header slogan-header">
       <h2 class="slogan">A hand-picked directory of the best design resources and tools for creatives.</h2>
       <div class="submit-resource">
-        <button class="feedback-btn" data-toggle="modal" data-target="#modal">Suggest a Resource</button>
+        <button class="feedback-btn" data-toggle="modal" data-target="#modal">Submit a Resource</button>
       </div>
     </div>
 
@@ -167,33 +167,33 @@
         <!-- Modal content-->
         <div id="modal-content" class="modal-content">
           <div id="modal-header" class="modal-header">
-            <h4 class="modal-title">Suggest a Resource!</h4>
+           
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
           <div id="modal-body" class="modal-body">
-            <div class="col-md-6 offset-md-1" id="user-form">
-              <h6>We are always happy to hear feedback <br>or a resource you would want to add.</h6>
-              <br>
-              <form class="mt-4 mt-md-0" action="https://formspree.io/nikolaibain@icloud.com" method="POST">
+            <div id="user-form">
+              <h4 class="modal-title">Submit a Resource</h4>
+              <h6>Submit a resource for consideration<br> for The Design Index.</h6>
+              <form class="form-groups" action="https://formspree.io/nikolaibain@icloud.com" method="POST">
                 <div class="form-group">
                   <input type="hidden" name="_next" value="https://www.thedesignindex.co"/>
                   <input type="hidden" name="_subject" value="Feedback: The Design Index"/>
-                  <input class="form-control" type="text" placeholder="Name" name="name"/>
+                  <p>Resource Name</p>
+                  <input class="form-control" type="text" placeholder="Enter resource name" name="name"/>
                 </div>
 
                 <div class="form-group">
-                  <input class="form-control" type="email" placeholder="Email" name="_replyto"/>
+                  <p>Resource Link</p>
+                  <input class="form-control" type="text" placeholder="Enter resourse link" name="link"/>
                 </div>
 
                 <div class="form-group">
-                  <textarea class="form-control" id="exampleFormControlTextarea3" rows="7" placeholder="Message" name="message"></textarea>
+                  <p>Your Email (Optional)</p>
+                  <input class="form-control" type="email" placeholder="Enter your email" name="_replyto"/>
                 </div>
 
-                <div class="form-group">
                   <input type="submit" value="Send" class="button">
-                </div>
-              </form>
-              <br>
+              </form> 
             </div>
           </div>
         </div>

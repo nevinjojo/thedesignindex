@@ -178,7 +178,7 @@ let resources = [
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
-    url: "https://coolors.co/ea526f-e76b74-d7af70-937d64-585b56/?ref=thedesignindex.co",
+    url: "https://coolors.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Coolors.svg"
   },
   {
