@@ -1,0 +1,21 @@
+<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="8_Figma">
+<g id="8_Mobbin">
+<rect id="Rectangle-Copy-58" width="103" height="103" rx="15" fill="#FFD564"/>
+<rect id="Rectangle Copy 49" opacity="0.665109" width="103" height="103" rx="15" fill="url(#paint0_linear)"/>
+<g id="Figma-logo">
+<path id="path0 fill" d="M40.0025 88C46.6252 88 52.0001 82.624 52.0001 76V64H40.0025C33.3798 64 28.0049 69.376 28.0049 76C28.0049 82.624 33.3798 88 40.0025 88Z" fill="#E1A70A" fill-opacity="0.8"/>
+<path id="path1 fill" d="M28.0049 52C28.0049 45.376 33.3798 40 40.0025 40H52.0001V64H40.0025C33.3798 64 28.0049 58.624 28.0049 52Z" fill="#E1A70A" fill-opacity="0.6"/>
+<path id="path1 fill 1" d="M28.0073 28C28.0073 21.376 33.3822 16 40.0049 16H52.0025V40H40.0049C33.3822 40 28.0073 34.624 28.0073 28Z" fill="#E1A70A"/>
+<path id="path2 fill" d="M52 16H63.9976C70.6203 16 75.9952 21.376 75.9952 28C75.9952 34.624 70.6203 40 63.9976 40H52V16Z" fill="#E1A70A" fill-opacity="0.7"/>
+<path id="path3 fill" d="M75.9952 52C75.9952 58.624 70.6203 64 63.9976 64C57.3749 64 52 58.624 52 52C52 45.376 57.3749 40 63.9976 40C70.6203 40 75.9952 45.376 75.9952 52Z" fill="#E1A70A"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="0" y2="103" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.0707769"/>
+<stop offset="1" stop-color="#0B1A3F" stop-opacity="0.104731"/>
+</linearGradient>
+</defs>
+</svg>

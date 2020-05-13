@@ -84,7 +84,7 @@ let resources = [
   },
   {
     title: "Humaaans",
-    description: "Free mix & match illustrations of minimal people with a customisable design library.",
+    description: "Free mix & match illustrations of people with a customisable design library.",
     category: "Illustration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
@@ -93,12 +93,21 @@ let resources = [
   },
   {
     title: "Ouch!",
-    description: "Free beautiful illustration sets by various different designers. Tons of styles to choose.",
+    description: "Free beautiful illustration sets by various different designers.",
     category: "Illustration",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://icons8.com/ouch/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/3_Ouch.svg"
+  },
+  {
+    title: "Blush",
+    description: "Customisable illustration sets by various designers from around the globe.",
+    category: "Illustration",
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
+    price: "Free",
+    url: "https://blush.design/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/3_Blush.svg"
   },
   {
     title: "The Noun Project",
@@ -290,12 +299,21 @@ let resources = [
     icon_link: "images/resource_icons/8_Numi.svg"
   },
   {
-    title: "Sketch",
+    title: "Figma",
     description: "The best design program for UX/UI ideation and designing.",
     category: "Applications",
-    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://Figma.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Figma.svg"
+  },
+  {
+    title: "Sketch",
+    description: "To create, prototype and collaborate on UX/UI and web designs.",
+    category: "Applications",
+    job_types: ["Web Designer", "UX/UI Designer"],
     price: "$99",
-    url: "https://numi.app/?ref=thedesignindex.co",
+    url: "https://sketch.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/8_Sketch.svg"
   },
   {

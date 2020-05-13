@@ -347,7 +347,6 @@ p {
 .card-icon {
   width: 100px;
   height: 100px;
-  border-radius: 100%;
   margin: 15% auto 10% auto;
   cursor: pointer;
   background-color: #ffffff;
@@ -369,7 +368,7 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
   width: 100%;
-  border-radius: 400px;
+  border-radius: 28px;
 }
 
 .card-icon-container {
