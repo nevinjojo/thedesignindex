@@ -29,6 +29,15 @@ let resources = [
     icon_link: "images/resource_icons/1_Unsplash.svg"
   },
   {
+    title: "Generate Photo",
+    description: "Model photos generated completely by AI.",
+    category: "Photo-&-Video",
+    job_types: ["Graphic Designer, Illustrator"],
+    price: "Free",
+    url: "https://generated.photos/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/1_Generated.svg"
+  },
+  {
     title: "Stocksnap",
     description: "High quality and high resolution images for free.",
     category: "Photo-&-Video",
@@ -65,6 +74,33 @@ let resources = [
     icon_link: "images/resource_icons/2_Graphicburger.svg"
   },
   {
+    title: "Frrames",
+    description: "Realistic mockups for browsers, software and mobile devices.",
+    category: "Mockups",
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
+    price: "Free to $9",
+    url: "https://frrames.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/2_Frrames.svg"
+  },
+  {
+    title: "Dimmy Club",
+    description: "Device mockup generator for your screenshots.",
+    category: "Mockups",
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
+    price: "Free to $9",
+    url: "https://dimmy.club/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/2_Dimmy.svg"
+  },
+  {
+    title: "Animockup",
+    description: "Animated product mockups with videos and animated GIFs.",
+    category: "Mockups",
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
+    price: "Free to $9",
+    url: "https://animockup.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/2_Animockup.svg"
+  },
+  {
     title: "Pixeden",
     description: "Premium design mockups for packaging, stationery, technology and more.",
     category: "Mockups",
@@ -83,6 +119,15 @@ let resources = [
     icon_link: "images/resource_icons/2_Pixelbuddha.svg"
   },
   {
+    title: "Open Doodles",
+    description: "A massive free of sketchy illustrations.",
+    category: "Illustration",
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://opendoodles.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/3_Doodles.svg"
+  },
+  {
     title: "Humaaans",
     description: "Free mix & match illustrations of people with a customisable design library.",
     category: "Illustration",
@@ -99,6 +144,15 @@ let resources = [
     price: "Free",
     url: "https://icons8.com/ouch/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/3_Ouch.svg"
+  },
+  {
+    title: "Open Peeps",
+    description: "A minimal hand-drawn people illustration library.",
+    category: "Illustration",
+    job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
+    price: "Free",
+    url: "https://www.openpeeps.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/3_Peeps.svg"
   },
   {
     title: "Blush",
@@ -171,6 +225,15 @@ let resources = [
     price: "Free",
     url: "https://www.fontsquirrel.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Fontsquirrel.svg"
+  },
+  {
+    title: "Type Wolf",
+    description: "The lastest in what is treading in type.",
+    category: "Fonts",
+    job_types: ["Graphic Designer", "Web Designer"],
+    price: "Free",
+    url: "https://www.typewolf.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/5_Typewolf.svg"
   },
   {
     title: "Font Space",

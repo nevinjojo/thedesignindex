@@ -1,0 +1,24 @@
+<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="2_Medialoot">
+<g id="Group 2 Copy 7">
+<path id="Stroke 1" d="M77 35H25" stroke="#0093EE" stroke-width="7"/>
+<path id="Stroke 4" d="M77 53H59" stroke="#0093EE" stroke-width="7"/>
+<path id="Stroke 6" d="M77 69H59" stroke="#0093EE" stroke-width="7"/>
+<path id="Stroke 8" fill-rule="evenodd" clip-rule="evenodd" d="M47 60.5C47 55.2531 42.9707 51 38 51C33.0304 51 29 55.2531 29 60.5C29 65.7469 33.0304 70 38 70C42.9707 70 47 65.7469 47 60.5Z" stroke="#0093EE" stroke-width="7"/>
+</g>
+<g id="2_Pixaden">
+<rect id="Rectangle-Copy-16" width="103" height="103" rx="15" fill="#90E2F3"/>
+<g id="Group">
+<path id="Vector" d="M22.2817 21.3005C31.5481 30.9229 40.8724 40.4873 50.1388 50.1677C50.8917 50.9212 51.4708 52.1965 51.4708 53.2399C51.5867 62.2826 51.5288 71.3833 51.5288 81.4694C49.6176 79.8464 48.4593 78.9769 47.4168 77.9914C39.7141 70.3399 32.0693 62.5724 24.3087 54.9789C22.108 52.8341 20.8918 50.6314 21.0076 47.3853C21.2392 38.8643 21.0655 30.3433 21.0655 21.8222C21.4709 21.5904 21.8763 21.4744 22.2817 21.3005Z" fill="#0F9BD4"/>
+<path id="Vector_2" d="M81.8182 80.8318C72.6676 71.6731 63.4591 62.5145 54.3665 53.2399C53.3819 52.2545 52.7449 50.5735 52.7449 49.1823C52.629 40.0816 52.687 30.9229 52.687 20.8948C54.3665 22.286 55.5827 23.0975 56.5673 24.1409C64.4437 32.1982 72.2043 40.3714 80.1386 48.3707C82.3973 50.6314 83.266 52.9501 83.2081 56.0802C83.0344 64.1955 83.1502 72.3108 83.1502 80.426C82.6869 80.542 82.2815 80.6579 81.8182 80.8318Z" fill="#0F9BD4"/>
+</g>
+</g>
+<rect id="Rectangle Copy 29" opacity="0.499372" width="103" height="103" rx="15" fill="url(#paint0_linear)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="0" y2="103" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.0707769"/>
+<stop offset="1" stop-color="#0B1A3F" stop-opacity="0.104731"/>
+</linearGradient>
+</defs>
+</svg>
