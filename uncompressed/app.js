@@ -1,5 +1,6 @@
 let db; // Firebase Database
 let resourceData = [];
+let favourited = [];
 fetchData();
 
 function fetchData() {
@@ -19,14 +20,14 @@ function fetchData() {
 
   // Fetch data
   db.ref().on("value", function (snapshot) {
-    snapshot.val().resources.forEach(resource => {
-      resourceData.push(resource);
-      let res = resources.find(res => {
-        return res.title === resource.title;
+    resourceData = snapshot.val().resources;
+    for (let [title, fields] of Object.entries(snapshot.val().resources)) {
+      let resource = resources.find(res => {
+        return res.title === title;
       });
-      res.favorite_count = resource.favorite_count;
-    });
-    loadResources();
+      resource.favorite_count = fields.favorite_count;
+    }
+    loadResources()
   }, function (error) {
     console.log("Error: " + error.code);
   });
@@ -36,10 +37,40 @@ function updateFavCount(title) {
   let resource = resources.find(res => {
     return res.title === title;
   });
-  resource.favorite_count++;
 
-  let resData = resourceData.find(res => {
+  if (!favourited.includes(title)) {
+    favourited.push(title);
+    resource.favorite_count++;
+    resourceData[title].favorite_count++;
+  } else {
+    const index = favourited.indexOf(title);
+    if (index > -1)
+      favourited.splice(index, 1);
+    resource.favorite_count--;
+    resourceData[title].favorite_count--;
+  }
+
+  let resourceRef = firebase.database().ref("resources/" + title);
+  resourceRef.update({
+    favorite_count: resourceData[title].favorite_count
+  });
+  // toggleFavColor(title + '-fav-btn');
+}
+
+function updateVisitCount(title) {
+  let resource = resources.find(res => {
     return res.title === title;
   });
-  resData.favorite_count++;
+
+  resource.visit_count++;
+  resourceData[title].visit_count++;
+
+  let resourceRef = firebase.database().ref("resources/" + title);
+  resourceRef.update({
+    visit_count: resourceData[title].visit_count
+  });
+}
+
+function toggleFavColor(id) {
+  document.getElementById(id).classList.toggle("favourited");
 }

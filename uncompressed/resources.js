@@ -29,7 +29,8 @@ let resources = [
     price: "Free",
     url: "https://unsplash.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Unsplash.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Stocksnap",
@@ -39,7 +40,8 @@ let resources = [
     price: "Free",
     url: "https://stocksnap.io/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Stocksnap.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Pexels",
@@ -49,7 +51,8 @@ let resources = [
     price: "Free",
     url: "http://pexels.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Pexels.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Coverr",
@@ -59,7 +62,8 @@ let resources = [
     price: "Free",
     url: "https://coverr.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/1_Coverr.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Graphic Burger",
@@ -69,7 +73,8 @@ let resources = [
     price: "Free",
     url: "https://graphicburger.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Graphicburger.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Pixeden",
@@ -79,7 +84,8 @@ let resources = [
     price: "Free",
     url: "https://www.pixeden.com/free-design-web-resources/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Pixaden.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Pixel Buddha",
@@ -89,7 +95,8 @@ let resources = [
     price: "Free",
     url: "https://pixelbuddha.net/freebies/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/2_Pixelbuddha.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Humaaans",
@@ -99,7 +106,8 @@ let resources = [
     price: "Free",
     url: "https://www.humaaans.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/3_Humaaans.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Ouch!",
@@ -109,7 +117,8 @@ let resources = [
     price: "Free",
     url: "https://icons8.com/ouch/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/3_Ouch.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "The Noun Project",
@@ -119,7 +128,8 @@ let resources = [
     price: "Free",
     url: "https://thenounproject.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Thenounproject.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Flat Icon",
@@ -129,7 +139,8 @@ let resources = [
     price: "Free",
     url: "https://www.flaticon.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Flaticon.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Icons8",
@@ -139,7 +150,8 @@ let resources = [
     price: "Free",
     url: "https://icons8.com/icons/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Icons8.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Icon Finder",
@@ -149,7 +161,8 @@ let resources = [
     price: "Free",
     url: "https://www.iconfinder.com/icon-sets/featured/free/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/4_Iconfinder.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Google Fonts",
@@ -159,7 +172,8 @@ let resources = [
     price: "Free",
     url: "https://fonts.google.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Googlefonts.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Calligraphr",
@@ -169,7 +183,8 @@ let resources = [
     price: "Free",
     url: "https://www.calligraphr.com/en/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Calligraphr.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Font Squirrel",
@@ -179,7 +194,8 @@ let resources = [
     price: "Free",
     url: "https://www.fontsquirrel.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Fontsquirrel.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Font Space",
@@ -189,7 +205,8 @@ let resources = [
     price: "Free",
     url: "https://www.fontspace.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/5_Fontspace.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Coolors",
@@ -199,7 +216,8 @@ let resources = [
     price: "Free",
     url: "https://coolors.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Coolors.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Colour Hunt",
@@ -209,7 +227,8 @@ let resources = [
     price: "Free",
     url: "https://colorhunt.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Colourhunt.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "WebGradients",
@@ -219,7 +238,8 @@ let resources = [
     price: "Free",
     url: "https://webgradients.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_WebGradients.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Khroma",
@@ -229,7 +249,8 @@ let resources = [
     price: "Free",
     url: "http://khroma.co/generator/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/6_Khroma.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Awwwards",
@@ -239,7 +260,8 @@ let resources = [
     price: "Free",
     url: "https://www.awwwards.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Awwwards.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Behance",
@@ -249,7 +271,8 @@ let resources = [
     price: "Free",
     url: "https://www.behance.net/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Behance.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Dribbble",
@@ -259,7 +282,8 @@ let resources = [
     price: "Free",
     url: "https://dribbble.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Dribbble.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Mobbin",
@@ -269,7 +293,8 @@ let resources = [
     price: "Free",
     url: "https://mobbin.design/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Mobbin.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Collect UI",
@@ -279,7 +304,8 @@ let resources = [
     price: "Free",
     url: "http://collectui.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/7_Collectui.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Notion",
@@ -289,7 +315,8 @@ let resources = [
     price: "Starting at Free",
     url: "https://www.notion.so/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/11_Notion.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Dotgrid",
@@ -299,7 +326,8 @@ let resources = [
     price: "Free",
     url: "https://hundredrabbits.itch.io/dotgrid/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/8_Dotgrid.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Spark Mail",
@@ -309,7 +337,8 @@ let resources = [
     price: "Free",
     url: "https://sparkmailapp.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/8_Spark.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Numi",
@@ -319,7 +348,8 @@ let resources = [
     price: "Free",
     url: "https://numi.app/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/8_Numi.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Sketch",
@@ -329,7 +359,8 @@ let resources = [
     price: "$99",
     url: "https://numi.app/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/8_Sketch.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Paper Sizes",
@@ -339,7 +370,8 @@ let resources = [
     price: "Free",
     url: "https://papersizes.io/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Papersizes.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Sketchsheets",
@@ -349,7 +381,8 @@ let resources = [
     price: "Free",
     url: "https://sketchsheets.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Sketchsheets.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Sharpen",
@@ -359,7 +392,8 @@ let resources = [
     price: "Free",
     url: "https://sharpen.design/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Sharpen.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "SmallPDF",
@@ -369,7 +403,8 @@ let resources = [
     price: "Free",
     url: "https://smallpdf.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_Smallpdf.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "FocusFox",
@@ -379,7 +414,8 @@ let resources = [
     price: "Free",
     url: "https://focusfox.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/11_focusfox.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Webflow",
@@ -389,7 +425,8 @@ let resources = [
     price: "Free",
     url: "https://www.webflow.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/10_Webflow.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Visual Studio",
@@ -399,16 +436,19 @@ let resources = [
     price: "Free",
     url: "https://code.visualstudio.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/10_Visual.svg",
-    favorite_count: 0
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Atom",
-    description: "Ultra minimal code editor that intergrates with GutHub.",
+    description: "Ultra minimal code editor that integrates with GutHub.",
     category: "Development",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://atom.io/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/10_Atom.svg"
+    icon_link: "images/resource_icons/10_Atom.svg",
+    favorite_count: 0,
+    visit_count: 0
   }
 ];
 
@@ -489,29 +529,31 @@ function createResources(resources) {
     noneClass[0].style.display = "none";
     for (let resource of resources) {
       let resourceString = '<div class="resource-card">' +
-        '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
         '          <div class="resource-card-wrapper">' +
         '            <div class="card-content">' +
         '              <div class="card-open">' +
-        '                <img src="images/open.svg">' +
+        '                <img src="" alt="Open Link">' +
         '              </div>' +
+        '            <a href="' + resource.url + '" rel="noopener" target="_blank" onclick="updateVisitCount(\'' + resource.title + '\')">' +
         '              <div class="card-icon-container">' +
         '                <div class="card-icon">' +
         '                  <img draggable="false" class="card-icon-img" src="' + resource.icon_link + '" alt="' + resource.title + 'Logo"/>' +
         '                </div>' +
         '              </div>' +
+        '            </a>' +
         '              <div class="card-text-container">' +
         '                <div class="card-text card-category"' + '">' + resource.price + '</div>' +
-        '                <div class="card-favorite" onclick="updateFavCount(' + resource.title + ')">' +
+        '                <button class="card-favorite" id="' + resource.title + '-fav-btn" onclick="updateFavCount(\'' + resource.title + '\')">' +
         '                  <img src="images/heart.svg">' +
         '                  <div class="favourite-button">' + resource.favorite_count + '</div>' +
-        '                </div>' +
-        '                <div class="card-text card-title">' + resource.title + '</div>' +
-        '                <div class="card-text card-description">' + resource.description + '</div>' +
+        '                </button>' +
+        '                <a href="' + resource.url + '" rel="noopener" target="_blank" onclick="updateVisitCount(\'' + resource.title + '\')">' +
+        '                 <div class="card-text card-title">' + resource.title + '</div>' +
+        '                 <div class="card-text card-description">' + resource.description + '</div>' +
+        '                </a>' +
         '              </div>' +
         '            </div>' +
         '          </div>' +
-        '        </a>' +
         '      </div>'
       ;
       let div = document.getElementById(resource.category);
