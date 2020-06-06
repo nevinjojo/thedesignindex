@@ -9,11 +9,13 @@ let categories = [
   "Photo-&-Video",
   "Mockups",
   "Illustration",
+  "Development",
   "Icons",
   "Fonts",
   "Colour",
   "Inspiration",
   "Applications",
+  "Productivity",
   "Other"
 ];
 
@@ -26,7 +28,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://unsplash.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/1_Unsplash.svg"
+    icon_link: "images/resource_icons/1_Unsplash.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Generate Photo",
@@ -35,7 +39,9 @@ let resources = [
     job_types: ["Graphic Designer, Illustrator"],
     price: "Free",
     url: "https://generated.photos/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/1_Generated.svg"
+    icon_link: "images/resource_icons/1_Generated.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Stocksnap",
@@ -44,7 +50,9 @@ let resources = [
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://stocksnap.io/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/1_Stocksnap.svg"
+    icon_link: "images/resource_icons/1_Stocksnap.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Pexels",
@@ -53,7 +61,9 @@ let resources = [
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "http://pexels.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/1_Pexels.svg"
+    icon_link: "images/resource_icons/1_Pexels.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Coverr",
@@ -62,7 +72,9 @@ let resources = [
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://coverr.co/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/1_Coverr.svg"
+    icon_link: "images/resource_icons/1_Coverr.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Graphic Burger",
@@ -71,7 +83,9 @@ let resources = [
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://graphicburger.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/2_Graphicburger.svg"
+    icon_link: "images/resource_icons/2_Graphicburger.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Frrames",
@@ -80,7 +94,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free to $9",
     url: "https://frrames.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/2_Frrames.svg"
+    icon_link: "images/resource_icons/2_Frrames.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Dimmy Club",
@@ -89,7 +105,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free to $9",
     url: "https://dimmy.club/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/2_Dimmy.svg"
+    icon_link: "images/resource_icons/2_Dimmy.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Animockup",
@@ -98,7 +116,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free to $9",
     url: "https://animockup.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/2_Animockup.svg"
+    icon_link: "images/resource_icons/2_Animockup.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Pixeden",
@@ -107,7 +127,9 @@ let resources = [
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://www.pixeden.com/free-design-web-resources/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/2_Pixaden.svg"
+    icon_link: "images/resource_icons/2_Pixaden.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Pixel Buddha",
@@ -116,7 +138,9 @@ let resources = [
     job_types: ["Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://pixelbuddha.net/freebies/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/2_Pixelbuddha.svg"
+    icon_link: "images/resource_icons/2_Pixelbuddha.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Open Doodles",
@@ -125,7 +149,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://opendoodles.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/3_Doodles.svg"
+    icon_link: "images/resource_icons/3_Doodles.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Humaaans",
@@ -134,7 +160,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://www.humaaans.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/3_Humaaans.svg"
+    icon_link: "images/resource_icons/3_Humaaans.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Ouch!",
@@ -143,7 +171,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://icons8.com/ouch/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/3_Ouch.svg"
+    icon_link: "images/resource_icons/3_Ouch.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Open Peeps",
@@ -152,7 +182,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://www.openpeeps.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/3_Peeps.svg"
+    icon_link: "images/resource_icons/3_Peeps.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Blush",
@@ -161,7 +193,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://blush.design/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/3_Blush.svg"
+    icon_link: "images/resource_icons/3_Blush.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "The Noun Project",
@@ -170,7 +204,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://thenounproject.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/4_Thenounproject.svg"
+    icon_link: "images/resource_icons/4_Thenounproject.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Flat Icon",
@@ -179,7 +215,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://www.flaticon.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/4_Flaticon.svg"
+    icon_link: "images/resource_icons/4_Flaticon.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Icons8",
@@ -188,7 +226,9 @@ let resources = [
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://icons8.com/icons/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/4_Icons8.svg"
+    icon_link: "images/resource_icons/4_Icons8.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Icon Finder",
@@ -197,7 +237,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
     url: "https://www.iconfinder.com/icon-sets/featured/free/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/4_Iconfinder.svg"
+    icon_link: "images/resource_icons/4_Iconfinder.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Google Fonts",
@@ -206,7 +248,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://fonts.google.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/5_Googlefonts.svg"
+    icon_link: "images/resource_icons/5_Googlefonts.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Calligraphr",
@@ -215,7 +259,9 @@ let resources = [
     job_types: ["Graphic Designer", "Illustrator"],
     price: "Free",
     url: "https://www.calligraphr.com/en/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/5_Calligraphr.svg"
+    icon_link: "images/resource_icons/5_Calligraphr.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Font Squirrel",
@@ -224,7 +270,9 @@ let resources = [
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://www.fontsquirrel.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/5_Fontsquirrel.svg"
+    icon_link: "images/resource_icons/5_Fontsquirrel.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Type Wolf",
@@ -233,7 +281,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
     url: "https://www.typewolf.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/5_Typewolf.svg"
+    icon_link: "images/resource_icons/5_Typewolf.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Font Space",
@@ -242,7 +292,9 @@ let resources = [
     job_types: ["Graphic Designer"],
     price: "Free",
     url: "https://www.fontspace.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/5_Fontspace.svg"
+    icon_link: "images/resource_icons/5_Fontspace.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Coolors",
@@ -251,7 +303,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://coolors.co/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/6_Coolors.svg"
+    icon_link: "images/resource_icons/6_Coolors.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Colour Hunt",
@@ -260,7 +314,9 @@ let resources = [
     job_types: ["Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://colorhunt.co/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/6_Colourhunt.svg"
+    icon_link: "images/resource_icons/6_Colourhunt.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "WebGradients",
@@ -269,7 +325,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://webgradients.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/6_WebGradients.svg"
+    icon_link: "images/resource_icons/6_WebGradients.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Khroma",
@@ -278,7 +336,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "http://khroma.co/generator/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/6_Khroma.svg"
+    icon_link: "images/resource_icons/6_Khroma.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Awwwards",
@@ -287,7 +347,9 @@ let resources = [
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://www.awwwards.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/7_Awwwards.svg"
+    icon_link: "images/resource_icons/7_Awwwards.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Behance",
@@ -296,7 +358,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://www.behance.net/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/7_Behance.svg"
+    icon_link: "images/resource_icons/7_Behance.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Dribbble",
@@ -305,7 +369,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
     url: "https://dribbble.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/7_Dribbble.svg"
+    icon_link: "images/resource_icons/7_Dribbble.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Mobbin",
@@ -314,7 +380,9 @@ let resources = [
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://mobbin.design/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/7_Mobbin.svg"
+    icon_link: "images/resource_icons/7_Mobbin.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Collect UI",
@@ -323,16 +391,20 @@ let resources = [
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "http://collectui.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/7_Collectui.svg"
+    icon_link: "images/resource_icons/7_Collectui.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Notion",
     description: "A minimal and beautiful notes and project organisation application.",
-    category: "Applications",
+    category: "Productivity",
     job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
-    price: "Free or $4/m",
+    price: "Starting at Free",
     url: "https://www.notion.so/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/8_Notion.svg"
+    icon_link: "images/resource_icons/11_Notion.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Dotgrid",
@@ -341,7 +413,9 @@ let resources = [
     job_types: ["Graphic Designer", "Illustrator"],
     price: "Free",
     url: "https://hundredrabbits.itch.io/dotgrid/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/8_Dotgrid.svg"
+    icon_link: "images/resource_icons/8_Dotgrid.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Spark Mail",
@@ -350,7 +424,9 @@ let resources = [
     job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://sparkmailapp.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/8_Spark.svg"
+    icon_link: "images/resource_icons/8_Spark.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Numi",
@@ -359,7 +435,9 @@ let resources = [
     job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://numi.app/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/8_Numi.svg"
+    icon_link: "images/resource_icons/8_Numi.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Figma",
@@ -368,7 +446,9 @@ let resources = [
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://Figma.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/8_Figma.svg"
+    icon_link: "images/resource_icons/8_Figma.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Sketch",
@@ -376,8 +456,10 @@ let resources = [
     category: "Applications",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "$99",
-    url: "https://sketch.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/8_Sketch.svg"
+    url: "https://numi.app/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/8_Sketch.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Paper Sizes",
@@ -386,7 +468,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
     url: "https://papersizes.io/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/9_Papersizes.svg"
+    icon_link: "images/resource_icons/9_Papersizes.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Sketchsheets",
@@ -395,7 +479,9 @@ let resources = [
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://sketchsheets.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/9_Sketchsheets.svg"
+    icon_link: "images/resource_icons/9_Sketchsheets.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "Sharpen",
@@ -404,7 +490,9 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://sharpen.design/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/9_Sharpen.svg"
+    icon_link: "images/resource_icons/9_Sharpen.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "SmallPDF",
@@ -413,18 +501,70 @@ let resources = [
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
     url: "https://smallpdf.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/9_Smallpdf.svg"
+    icon_link: "images/resource_icons/9_Smallpdf.svg",
+    favorite_count: 0,
+    visit_count: 0
   },
   {
     title: "FocusFox",
     description: "An online markdown text editor with background sounds to help you focus.",
-    category: "Other",
+    category: "Productivity",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
     url: "https://focusfox.co/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/9_focusfox.svg"
+    icon_link: "images/resource_icons/11_focusfox.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Webflow",
+    description: "Build better websites, faster, all without coding.",
+    category: "Development",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://www.webflow.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/10_Webflow.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Visual Studio",
+    description: "Best free code editing software.",
+    category: "Development",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://code.visualstudio.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/10_Visual.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Atom",
+    description: "Ultra minimal code editor that integrates with GutHub.",
+    category: "Development",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://atom.io/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/10_Atom.svg",
+    favorite_count: 0,
+    visit_count: 0
   }
 ];
+
+let submitResourceString = '<div class="resource-card" data-toggle="modal" data-target="#modal">' +
+  '          <div class="resource-card-wrapper-submit">' +
+  '            <div class="card-content">' +
+  '                <div class="card-icon-submit">' +
+  '                  <img draggable="false" class="card-icon-img-submit" src="images/plus.svg" alt="Submit resource"/>' +
+  '                </div>' +
+  '              <div class="card-text-container">' +
+  '                <div class="card-text card-title-submit">Suggest a resource</div>' +
+  '                <div class="card-text card-description-submit">Can\'t find your favourite resource? Submit it!</div>' +
+  '              </div>' +
+  '            </div>' +
+  '          </div>' +
+  '      </div>'
+;
 
 // Sets the Category to filter through resources.
 function setCategory(category) {
@@ -481,32 +621,38 @@ function loadResources() {
 
 // Append resource children to `resourceRow` div iteratively.
 function createResources(resources) {
+  let noneClass = document.getElementsByClassName('none');
   if (resources.length === 0) {
-    let resourceString = '<div class="none"><img src="images/logo2.svg" style="width:100px;"><br><br><br>No resources found!</div>';
-    let div = document.getElementsByClassName('box')[0];
-    div.insertAdjacentHTML('beforeend', resourceString);
+    noneClass[0].style.display = "block";
   } else {
+    noneClass[0].style.display = "none";
     for (let resource of resources) {
       let resourceString = '<div class="resource-card">' +
-        '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
         '          <div class="resource-card-wrapper">' +
         '            <div class="card-content">' +
         '              <div class="card-open">' +
-        '                <img src="images/open.svg">' +
+        '                <img src="" alt="Open Link">' +
         '              </div>' +
+        '            <a href="' + resource.url + '" rel="noopener" target="_blank" onclick="updateVisitCount(\'' + resource.title + '\')">' +
         '              <div class="card-icon-container">' +
         '                <div class="card-icon">' +
         '                  <img draggable="false" class="card-icon-img" src="' + resource.icon_link + '" alt="' + resource.title + 'Logo"/>' +
         '                </div>' +
         '              </div>' +
+        '            </a>' +
         '              <div class="card-text-container">' +
         '                <div class="card-text card-category"' + '">' + resource.price + '</div>' +
-        '                <div class="card-text card-title">' + resource.title + '</div>' +
-        '                <div class="card-text card-description">' + resource.description + '</div>' +
+        '                <button class="card-favorite" id="' + resource.title + '-fav-btn" onclick="updateFavCount(\'' + resource.title + '\')">' +
+        '                  <img src="images/heart.svg">' +
+        '                  <div class="favourite-button">' + resource.favorite_count + '</div>' +
+        '                </button>' +
+        '                <a href="' + resource.url + '" rel="noopener" target="_blank" onclick="updateVisitCount(\'' + resource.title + '\')">' +
+        '                 <div class="card-text card-title">' + resource.title + '</div>' +
+        '                 <div class="card-text card-description">' + resource.description + '</div>' +
+        '                </a>' +
         '              </div>' +
         '            </div>' +
         '          </div>' +
-        '        </a>' +
         '      </div>'
       ;
       let div = document.getElementById(resource.category);
@@ -525,6 +671,11 @@ function createResources(resources) {
       }
     }
   });
+
+  let categorySections = document.getElementsByClassName('categorySection');
+  for (let section of categorySections) {
+    section.insertAdjacentHTML('beforeend', submitResourceString);
+  }
 }
 
 //Reset contents of the modal

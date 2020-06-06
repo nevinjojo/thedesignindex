@@ -321,7 +321,7 @@ p {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.01);
   border: 2px solid rgba(0, 0, 0, 0.01);
   transition: all 0.15s ease;
-  height: 305px;
+  height: 325px;
   width: 190px;
 }
 
@@ -349,7 +349,7 @@ p {
   height: 100px;
   margin: 15% auto 10% auto;
   cursor: pointer;
-  background-color: #ffffff;
+  text-align: center;
 }
 
 img {
@@ -371,10 +371,6 @@ img {
   border-radius: 28px;
 }
 
-.card-icon-container {
-  position: relative;
-  width: 100%;
-}
 
 .card-text {
   font-family: 'Public Sans', sans-serif;
@@ -454,6 +450,32 @@ img {
   display: none;
 }
 
+.card-favorite {
+  position: relative;
+  border: 2px solid #DFE4E8;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  display: block;
+  z-index: 5;
+  border-radius: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.favourited {
+  background-color: #3c4c5b;
+}
+
+.card-favorite img, .card-favorite div {
+  display: inline-block;
+  height: 15px;
+  margin-bottom: 2px;
+  margin-top: 1px;
+}
+
 .fir-imageover-color {
   height: 80px;
   width: 80px;
@@ -470,6 +492,58 @@ img {
   left: 0;
   padding: 25%;
 }
+
+
+/* Submit Card at end of row */
+
+.resource-card-wrapper-submit {
+  margin-right: 20px;
+  border-radius: 15px;
+  margin-top: 4px;
+  border: 2px solid #C5CCD2;
+  transition: all 0.15s ease;
+  height: 325px;
+  width: 190px;
+  cursor: pointer;
+}
+.card-title-submit {
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #A5AFB7;
+  overflow: hidden;
+  letter-spacing: 0.25px;
+}
+.card-icon-submit {
+  width: 100px;
+  height: 75px;
+  border-radius: 100%;
+  margin: 15% auto 10% auto;
+  cursor: pointer;
+  text-align: center;
+}
+.card-icon-img-submit {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  width: 40px;
+  margin-top: 40px;
+}
+.card-description-submit {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  margin-top: 15px;
+}
+
+
 
 .none {
   font-family: 'Public Sans', sans-serif;
