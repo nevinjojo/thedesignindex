@@ -339,11 +339,11 @@ let resources = [
   {
     title: "FocusFox",
     description: "An online markdown text editor with background sounds to help you focus.",
-    category: "Other",
+    category: "Productivity",
     job_types: ["Graphic Designer", "Web Designer"],
     price: "Free",
     url: "https://focusfox.co/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/9_focusfox.svg"
+    icon_link: "images/resource_icons/11_focusfox.svg"
   },
   {
     title: "Webflow",
@@ -351,8 +351,26 @@ let resources = [
     category: "Development",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
-    url: "https://www.awwwards.com/?ref=thedesignindex.co",
+    url: "https://www.webflow.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/10_Webflow.svg"
+  },
+  {
+    title: "Visual Studio",
+    description: "Best free code editing software.",
+    category: "Development",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://code.visualstudio.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/10_Visual.svg"
+  },
+  {
+    title: "Atom",
+    description: "Ultra minimal code editor that intergrates with GutHub.",
+    category: "Development",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://atom.io/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/10_Atom.svg"
   }
 ];
 
