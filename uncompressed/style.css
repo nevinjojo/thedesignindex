@@ -350,7 +350,7 @@ p {
   border-radius: 100%;
   margin: 15% auto 10% auto;
   cursor: pointer;
-  background-color: #ffffff;
+  text-align: center;
 }
 
 img {
@@ -369,13 +369,9 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
   width: 100%;
-  border-radius: 400px;
+  border-radius: 100px;
 }
 
-.card-icon-container {
-  position: relative;
-  width: 100%;
-}
 
 .card-text {
   font-family: 'Public Sans', sans-serif;
@@ -471,6 +467,58 @@ img {
   left: 0;
   padding: 25%;
 }
+
+
+/* Submit Card at end of row */
+
+.resource-card-wrapper-submit {
+  margin-right: 20px;
+  border-radius: 15px;
+  margin-top: 4px;
+  border: 2px solid #C5CCD2;
+  transition: all 0.15s ease;
+  height: 305px;
+  width: 190px;
+  cursor: pointer;
+}
+.card-title-submit {
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #A5AFB7;
+  overflow: hidden;
+  letter-spacing: 0.25px;
+}
+.card-icon-submit {
+  width: 100px;
+  height: 75px;
+  border-radius: 100%;
+  margin: 15% auto 10% auto;
+  cursor: pointer;
+  text-align: center;
+}
+.card-icon-img-submit {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  width: 40px;
+  margin-top: 40px;
+}
+.card-description-submit {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  margin-top: 15px;
+}
+
+
 
 .none {
   font-family: 'Public Sans', sans-serif;
