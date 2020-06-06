@@ -54,7 +54,6 @@ function updateFavCount(title) {
   resourceRef.update({
     favorite_count: resourceData[title].favorite_count
   });
-  // toggleFavColor(title + '-fav-btn');
 }
 
 function updateVisitCount(title) {
@@ -69,8 +68,4 @@ function updateVisitCount(title) {
   resourceRef.update({
     visit_count: resourceData[title].visit_count
   });
-}
-
-function toggleFavColor(id) {
-  document.getElementById(id).classList.toggle("favourited");
 }
