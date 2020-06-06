@@ -9,11 +9,13 @@ let categories = [
   "Photo-&-Video",
   "Mockups",
   "Illustration",
+  "Development",
   "Icons",
   "Fonts",
   "Colour",
   "Inspiration",
   "Applications",
+  "Productivity",
   "Other"
 ];
 
@@ -256,7 +258,7 @@ let resources = [
   {
     title: "Notion",
     description: "A minimal and beautiful notes and project organisation application.",
-    category: "Applications",
+    category: "Productivity",
     job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
     price: "Free or $4/m",
     url: "https://www.notion.so/?ref=thedesignindex.co",
@@ -342,8 +344,37 @@ let resources = [
     price: "Free",
     url: "https://focusfox.co/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/9_focusfox.svg"
+  },
+  {
+    title: "Webflow",
+    description: "Build better business websites, faster. Without coding.",
+    category: "Development",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://www.awwwards.com/?ref=thedesignindex.co",
+    icon_link: "images/resource_icons/7_Awwwards.svg"
   }
 ];
+
+let submitResourceString = '<div class="resource-card" data-toggle="modal" data-target="#modal">' +
+  '          <div class="resource-card-wrapper">' +
+  '            <div class="card-content">' +
+  '              <div class="card-open">' +
+  '                <img src="images/open.svg">' +
+  '              </div>' +
+  '              <div class="card-icon-container">' +
+  '                <div class="card-icon">' +
+  '                  <img draggable="false" class="card-icon-img" src="" alt="Submit resource"/>' +
+  '                </div>' +
+  '              </div>' +
+  '              <div class="card-text-container">' +
+  '                <div class="card-text card-title">Submit a resource</div>' +
+  '                <div class="card-text card-description">Can\'t find your favourite resource here? Submit them!</div>' +
+  '              </div>' +
+  '            </div>' +
+  '          </div>' +
+  '      </div>'
+;
 
 // Sets the Category to filter through resources.
 function setCategory(category) {
@@ -400,11 +431,11 @@ function loadResources() {
 
 // Append resource children to `resourceRow` div iteratively.
 function createResources(resources) {
+  let noneClass = document.getElementsByClassName('none');
   if (resources.length === 0) {
-    let resourceString = '<div class="none"><img src="images/logo2.svg" style="width:100px;"><br><br><br>No resources found!</div>';
-    let div = document.getElementsByClassName('box')[0];
-    div.insertAdjacentHTML('beforeend', resourceString);
+    noneClass[0].style.display = "block";
   } else {
+    noneClass[0].style.display = "none";
     for (let resource of resources) {
       let resourceString = '<div class="resource-card">' +
         '        <a href="' + resource.url + '" rel="noopener" target="_blank">' +
@@ -444,6 +475,11 @@ function createResources(resources) {
       }
     }
   });
+
+  let categorySections = document.getElementsByClassName('categorySection');
+  for (let section of categorySections) {
+    section.insertAdjacentHTML('beforeend', submitResourceString);
+  }
 }
 
 //Reset contents of the modal
