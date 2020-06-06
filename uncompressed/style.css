@@ -321,7 +321,7 @@ p {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.01);
   border: 2px solid rgba(0, 0, 0, 0.01);
   transition: all 0.15s ease;
-  height: 305px;
+  height: 325px;
   width: 190px;
 }
 
@@ -452,15 +452,24 @@ img {
 }
 
 .card-favorite {
-  border: 2px solid #C5CCD2;
+  position: relative;
+  border: 2px solid #DFE4E8;
   opacity: 0.5;
   transition: all 0.2s ease;
   display: block;
   z-index: 5;
+  border-radius: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
 }
 
 .card-favorite img, .card-favorite div {
   display: inline-block;
+  height: 15px;
+  margin-bottom: 2px;
+  margin-top: 1px;
 }
 
 .fir-imageover-color {
@@ -489,7 +498,7 @@ img {
   margin-top: 4px;
   border: 2px solid #C5CCD2;
   transition: all 0.15s ease;
-  height: 305px;
+  height: 325px;
   width: 190px;
   cursor: pointer;
 }

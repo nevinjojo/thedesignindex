@@ -503,7 +503,7 @@ function createResources(resources) {
         '              <div class="card-text-container">' +
         '                <div class="card-text card-category"' + '">' + resource.price + '</div>' +
         '                <div class="card-favorite" onclick="updateFavCount(' + resource.title + ')">' +
-        '                  <img src="images/open.svg">' +
+        '                  <img src="images/heart.svg">' +
         '                  <div class="favourite-button">' + resource.favorite_count + '</div>' +
         '                </div>' +
         '                <div class="card-text card-title">' + resource.title + '</div>' +
