@@ -451,6 +451,18 @@ img {
   display: none;
 }
 
+.card-favorite {
+  border: 2px solid #C5CCD2;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  display: block;
+  z-index: 5;
+}
+
+.card-favorite img, .card-favorite div {
+  display: inline-block;
+}
+
 .fir-imageover-color {
   height: 80px;
   width: 80px;

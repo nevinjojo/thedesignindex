@@ -1,6 +1,5 @@
-let favorites = [];
-let primaryKey = 0; // Key of the DB document with the drawings
 let db; // Firebase Database
+let resourceData = [];
 fetchData();
 
 function fetchData() {
@@ -19,10 +18,28 @@ function fetchData() {
   db = firebase.database();
 
   // Fetch data
-  let firebaseFavorites = db.ref().child('favorites');
-  firebaseFavorites.on('value',function(favorites){
-    favorites.forEach(function(firebaseOrderReference){
-
+  db.ref().on("value", function (snapshot) {
+    snapshot.val().resources.forEach(resource => {
+      resourceData.push(resource);
+      let res = resources.find(res => {
+        return res.title === resource.title;
+      });
+      res.favorite_count = resource.favorite_count;
     });
+    loadResources();
+  }, function (error) {
+    console.log("Error: " + error.code);
   });
+}
+
+function updateFavCount(title) {
+  let resource = resources.find(res => {
+    return res.title === title;
+  });
+  resource.favorite_count++;
+
+  let resData = resourceData.find(res => {
+    return res.title === title;
+  });
+  resData.favorite_count++;
 }

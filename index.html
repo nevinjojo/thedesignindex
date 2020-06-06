@@ -29,16 +29,16 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" type="text/css">
 
-  <!-- Custom Fonts, Stylesheets and Javascript -->
+  <!-- Custom Fonts, Firebase, Stylesheets and Javascript -->
   <link rel='stylesheet' href='uncompressed/style.css'/>
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-database.js"></script>
   <script src="uncompressed/resources.js"></script>
+  <script src="uncompressed/app.js"></script>
+  <script src="js/filters.min.js"></script>
   <script src="js/filters.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Public+Sans:400,500,600,700&display=swap" rel="stylesheet">
   <meta name="google-site-verification" content="ADkUeyXTc3TZXkdUXrpBkE7b48mw96xlRiKiTIDJ-WA"/>
-
-  <!-- Firebase, Jquery, P5.js-->
-  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-database.js"></script>
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
@@ -50,7 +50,6 @@
 
 <!-- TODO: Fix onload-->
 <body onload="loadResources(selected_category)">
-<script src="uncompressed/app.js"></script>
 
 <div class="wrapper">
   <nav id="sidebar">
@@ -179,7 +178,7 @@
         <div class="categorySection"></div>
       </div>
       <div class="none">
-        <img src="images/logo2.svg" style="width:100px;">
+        <img src="images/logo.svg" style="width:100px;" alt="Logo"/>
         <br><br><br>No resources found!
       </div>
     </div>
