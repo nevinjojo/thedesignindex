@@ -202,17 +202,17 @@ hr {
   transition: border-color .5s ease-out;
 }
 
-.form-control input:optional {
-  border-left-color: #999;
+.form-control::placeholder {
+  color: rgb(217, 221, 224);
+  opacity: 1;
 }
-
-.form-control input:required {
-  border-left-color: palegreen;
-}
-
-.form-control input:invalid {
-  border-left-color: salmon;
-}
+.form-control:-ms-input-placeholder { 
+  color: rgb(217, 221, 224);
+ }
+ 
+ .form-control::-ms-input-placeholder { 
+  color: rgb(217, 221, 224);
+ }
 
 .button {
   font-size: 14px;
@@ -321,7 +321,7 @@ p {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.01);
   border: 2px solid rgba(0, 0, 0, 0.01);
   transition: all 0.15s ease;
-  height: 325px;
+  height: 320px;
   width: 190px;
 }
 
@@ -347,7 +347,7 @@ p {
 .card-icon {
   width: 100px;
   height: 100px;
-  margin: 15% auto 10% auto;
+  margin: 15% auto 7% auto;
   cursor: pointer;
   text-align: center;
 }
@@ -381,7 +381,6 @@ img {
 }
 
 .card-text-container {
-  margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
@@ -392,7 +391,7 @@ img {
   font-weight: 800;
   font-size: 19px;
   line-height: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   color: #323E48;
   overflow: hidden;
   display: -webkit-box;
@@ -458,11 +457,20 @@ img {
   display: block;
   z-index: 5;
   border-radius: 50px;
-  width: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 80px;
+  margin: 6px auto 3px auto;
   background-color: #ffffff;
   cursor: pointer;
+  padding: 2px 8px 1px 8px;
+  font-size: 13px;
+}
+.card-favorite:hover {
+  opacity: 0.9;
+}
+.card-favorite:active {
+  border: 2px solid #DFE4E8;
+  opacity: 0.3;
+  background-color: #000000;
 }
 
 .favourited {
@@ -473,7 +481,6 @@ img {
   display: inline-block;
   height: 15px;
   margin-bottom: 2px;
-  margin-top: 1px;
 }
 
 .fir-imageover-color {
@@ -502,7 +509,7 @@ img {
   margin-top: 4px;
   border: 2px solid #C5CCD2;
   transition: all 0.15s ease;
-  height: 325px;
+  height: 320px;
   width: 190px;
   cursor: pointer;
 }
@@ -557,7 +564,7 @@ img {
 }
 
 #sidebar {
-  z-index: 1;
+  z-index: 7;
   min-width: var(--sidebar-width);
   max-width: var(--sidebar-width);
   height: 100vh;
@@ -952,7 +959,7 @@ button:hover, button:focus {
 
 .modal-content {
   height: auto;
-  width: 450px;
+  max-width: 450px;
   border-radius: 15px;
   border: none;
   margin: auto;

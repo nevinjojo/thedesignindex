@@ -122,7 +122,7 @@ let resources = [
   },
   {
     title: "Pixeden",
-    description: "Premium design mockups for packaging, stationery, technology and more.",
+    description: "Premium design mockups for packaging, stationery, and technology.",
     category: "Mockups",
     job_types: ["Graphic Designer"],
     price: "Free",
@@ -210,7 +210,7 @@ let resources = [
   },
   {
     title: "Flat Icon",
-    description: "Curated packs of icons that are great for keeping a consistent style throughout a project.",
+    description: "Curated packs of icons that help keep a consistent style throughout a project.",
     category: "Icons",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer"],
     price: "Free",
@@ -331,7 +331,7 @@ let resources = [
   },
   {
     title: "Khroma",
-    description: "An AI colour tool that learns off you to recommend you personalised colour palettes.",
+    description: "An AI colour tool that learns off you to show you personalised colour palettes.",
     category: "Colour",
     job_types: ["Graphic Designer", "Web Designer", "UX/UI Designer", "Illustrator"],
     price: "Free",
