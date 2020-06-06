@@ -260,9 +260,9 @@ let resources = [
     description: "A minimal and beautiful notes and project organisation application.",
     category: "Productivity",
     job_types: ["Graphic Designer", "Illustrator", "Web Designer", "UX/UI Designer"],
-    price: "Free or $4/m",
+    price: "Starting at Free",
     url: "https://www.notion.so/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/8_Notion.svg"
+    icon_link: "images/resource_icons/11_Notion.svg"
   },
   {
     title: "Dotgrid",
@@ -347,29 +347,24 @@ let resources = [
   },
   {
     title: "Webflow",
-    description: "Build better business websites, faster. Without coding.",
+    description: "Build better websites, faster, all without coding.",
     category: "Development",
     job_types: ["Web Designer", "UX/UI Designer"],
     price: "Free",
     url: "https://www.awwwards.com/?ref=thedesignindex.co",
-    icon_link: "images/resource_icons/7_Awwwards.svg"
+    icon_link: "images/resource_icons/10_Webflow.svg"
   }
 ];
 
 let submitResourceString = '<div class="resource-card" data-toggle="modal" data-target="#modal">' +
-  '          <div class="resource-card-wrapper">' +
+  '          <div class="resource-card-wrapper-submit">' +
   '            <div class="card-content">' +
-  '              <div class="card-open">' +
-  '                <img src="images/open.svg">' +
-  '              </div>' +
-  '              <div class="card-icon-container">' +
-  '                <div class="card-icon">' +
-  '                  <img draggable="false" class="card-icon-img" src="" alt="Submit resource"/>' +
+  '                <div class="card-icon-submit">' +
+  '                  <img draggable="false" class="card-icon-img-submit" src="images/plus.svg" alt="Submit resource"/>' +
   '                </div>' +
-  '              </div>' +
   '              <div class="card-text-container">' +
-  '                <div class="card-text card-title">Submit a resource</div>' +
-  '                <div class="card-text card-description">Can\'t find your favourite resource here? Submit them!</div>' +
+  '                <div class="card-text card-title-submit">Suggest a resource</div>' +
+  '                <div class="card-text card-description-submit">Can\'t find your favourite resource? Submit it!</div>' +
   '              </div>' +
   '            </div>' +
   '          </div>' +
