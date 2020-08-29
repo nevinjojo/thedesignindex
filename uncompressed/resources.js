@@ -548,6 +548,72 @@ let resources = [
     icon_link: "images/resource_icons/10_Atom.svg",
     favorite_count: 0,
     visit_count: 0
+  },
+  {
+    title: "Graphic Pear",
+    description: "A collection of free & premium mockups for designers to present their designs.",
+    category: "Mockups",
+    job_types: ["Graphic Designer", "UX/UI Designer"],
+    price: "Starting at Free",
+    url: "https://www.graphicpear.com/mockups/",
+    icon_link: "images/resource_icons/2_GraphicPear.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Mockups Design",
+    description: "Where you can find free premium mockups that can be used in your private and commercial work.",
+    category: "Mockups",
+    job_types: ["Graphic Designer"],
+    price: "Free",
+    url: "https://mockups-design.com",
+    icon_link: "images/resource_icons/2_MockupsDesign.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Land Book",
+    description: "Design gallery with the best and most carefully collected websites.",
+    category: "Inspiration",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Paid",
+    url: "https://land-book.com",
+    icon_link: "images/resource_icons/7_LandBook.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Lapa Ninja",
+    description: "Great landing page design inspiration.",
+    category: "Inspiration",
+    job_types: ["Web Designer", "UX/UI Designer"],
+    price: "Free",
+    url: "https://www.lapa.ninja",
+    icon_link: "images/resource_icons/7_LapaNinja.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Miro",
+    description: "Scalable, secure, cross-device and enterprise-ready team collaboration whiteboard for distributed teams.",
+    category: "Applications",
+    job_types: ["All Jobs"],
+    price: "Starting at Free",
+    url: "https://miro.com/",
+    icon_link: "images/resource_icons/8_Miro.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Milanote",
+    description: "An easy-to-use tool to organise your ideas and projects into visual boards.",
+    category: "Other",
+    job_types: ["All Jobs"],
+    price: "Starting at Free",
+    url: "https://milanote.com",
+    icon_link: "images/resource_icons/9_Milanote.svg",
+    favorite_count: 0,
+    visit_count: 0
   }
 ];
 
