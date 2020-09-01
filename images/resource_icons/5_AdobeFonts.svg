@@ -1,0 +1,17 @@
+<svg width="103" height="104" viewBox="0 0 103 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="5_AdobeFonts">
+<rect id="Rectangle-Copy-37" width="103" height="104" rx="15" fill="#FF9BD8"/>
+<g id="Group">
+<path id="Vector" d="M20 78.6806C20 60.501 20 42.2859 20 24C27.5979 24 35.1959 24 42.9705 24C35.3372 42.2859 27.7393 60.4656 20.1767 78.6806C20.106 78.6806 20.0707 78.6806 20 78.6806Z" fill="#D23588"/>
+<path id="Vector_2" d="M82.1973 78.5741C74.6347 60.4299 67.0721 42.2857 59.4741 24.0352C67.1427 24.0352 74.7053 24.0352 82.3386 24.0352C82.3386 42.1794 82.3386 60.359 82.3386 78.5386C82.3033 78.5386 82.2326 78.5386 82.1973 78.5741Z" fill="#D23588"/>
+<path id="Vector_3" d="M65.8704 79.248C62.5839 79.248 59.5094 79.248 56.3288 79.248C54.8799 75.5979 53.3957 71.9124 51.9114 68.156C48.3775 68.156 44.9142 68.156 41.2036 68.156C44.4195 60.1824 47.8121 52.457 51.3813 44.6606C56.1521 56.1425 60.9583 67.589 65.8704 79.248Z" fill="#D23588"/>
+</g>
+<rect id="Rectangle Copy 38" opacity="0.610166" y="1" width="103" height="103" rx="15" fill="url(#paint0_linear)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="1" x2="0" y2="104" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.0707769"/>
+<stop offset="1" stop-color="#0B1A3F" stop-opacity="0.104731"/>
+</linearGradient>
+</defs>
+</svg>
