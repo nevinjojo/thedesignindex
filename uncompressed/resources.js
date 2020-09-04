@@ -521,7 +521,7 @@ let resources = [
     description: "Build better websites, faster, all without coding.",
     category: "No-Code",
     job_types: ["Web Designer", "UX/UI Designer"],
-    price: "Free",
+    price: "Starting at Free",
     url: "https://www.webflow.com/?ref=thedesignindex.co",
     icon_link: "images/resource_icons/10_Webflow.svg",
     favorite_count: 0,
@@ -539,7 +539,7 @@ let resources = [
     visit_count: 0
   },
   {
-    title: "Mockups Design",
+    title: "Mockups",
     description: "Where you can find free premium mockups that can be used in your private and commercial work.",
     category: "Mockups",
     job_types: ["Graphic Designer"],
@@ -590,6 +590,61 @@ let resources = [
     price: "Starting at Free",
     url: "https://milanote.com",
     icon_link: "images/resource_icons/9_Milanote.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "ConvertKit",
+    description: "The email marketing tools and automation you need to grow your business.",
+    category: "Other",
+    job_types: ["All Jobs"],
+    price: "Starting at Free",
+    url: "https://convertkit.com",
+    icon_link: "images/resource_icons/9_ConvertKit.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Adobe Fonts",
+    description: "Fonts from the world’s leading type foundries included within Adobe memberships.",
+    category: "Fonts",
+    job_types: ["All Jobs"],
+    price: "Starting at Free",
+    url: "https://fonts.adobe.com/",
+    icon_link: "images/resource_icons/5_AdobeFonts.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Zapier",
+    description: "Connect the apps you use everyday to automate your work and be more productive.",
+    category: "No-Code",
+    job_types: ["All Jobs"],
+    price: "Starting at Free",
+    url: "https://zapier.com",
+    icon_link: "images/resource_icons/10_Zapier.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Airtable",
+    description: "Works like a spreadsheet but gives you the power of a database to organize anything.",
+    category: "No-Code",
+    job_types: ["All Jobs"],
+    price: "Starting at Free",
+    url: "https://airtable.com",
+    icon_link: "images/resource_icons/10_Airtable.svg",
+    favorite_count: 0,
+    visit_count: 0
+  },
+  {
+    title: "Picular",
+    description: "A fast primary color generator using Google’s image search.",
+    category: "Colour",
+    job_types: ["All Jobs"],
+    price: "Starting at Free",
+    url: "https://picular.co/",
+    icon_link: "images/resource_icons/6_Picular.svg",
     favorite_count: 0,
     visit_count: 0
   }
