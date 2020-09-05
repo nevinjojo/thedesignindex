@@ -25,7 +25,9 @@ function fetchData() {
       let resource = resources.find(res => {
         return res.title === title;
       });
-      resource.favorite_count = fields.favorite_count;
+      if (resource != undefined) {
+        resource.favorite_count = fields.favorite_count;
+      }
     }
     loadResources()
   }, function (error) {
